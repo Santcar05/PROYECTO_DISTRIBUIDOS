@@ -5,7 +5,8 @@ import time
 # Contexto y socket compartido
 context = zmq.Context()
 socket = context.socket(zmq.REQ)
-socket.connect("tcp://localhost:5555")
+# Colocar la IP del Gestor de Carga(la VM)
+socket.connect("tcp://10.43.102.40:5555")
 
 lock = threading.Lock()  # controla acceso al socket
 
