@@ -1,20 +1,64 @@
-#los PS generen requerimientos de estos tres tipos, 
-# provenientes de un archivo de  texto previamente configurado, 
-#de manera que se lean las peticiones de forma automática.
-
-
+import threading
 import zmq
-#Comunicacion Síncrona en Prestamo y renovación de libros
+import time
 
-#--------PRIMERA ENTREGA---------
+# Contexto y socket compartido
+context = zmq.Context()
+socket = context.socket(zmq.REQ)
+socket.connect("tcp://localhost:5555")
+
+lock = threading.Lock()  # controla acceso al socket
+
+# -------- PRIMERA ENTREGA ---------
 def devolverLibro():
-    print("Has devuelto el libro")
-    
-def renovarLibro():
-    print("Has renovado el libro")
-    
-#--------SEGUNDA ENTREGA---------
-def solicitarPrestamosLibro():
-    print("Has solicitado un prestamo de libro")
-    # El préstamo se puede solicitar por un periodo máximo de 2 semanas
+    i = 0
+    while True:
+        with lock:
+            print("[A] devolverLibro enviando petición...")
+            socket.send_string("Petición: devolver libro")
+            respuesta = socket.recv_string()
+            print("[A] devolverLibro recibió:", respuesta)
+            print("Mensaje", i, "enviado")
+        i += 1
+        time.sleep(1)  # Simula tiempo entre peticiones
 
+
+def renovarLibro():
+    i = 0
+    while True:
+        with lock:
+            print("[A] renovarLibro enviando petición...")
+            socket.send_string("Petición: renovar libro")
+            respuesta = socket.recv_string()
+            print("[A] renovarLibro recibió:", respuesta)
+            print("Mensaje", i, "enviado")
+        i += 1
+        time.sleep(2)
+
+
+def solicitarPrestamosLibro():
+    i = 0
+    while True:
+        with lock:
+            print("[A] solicitarPrestamosLibro enviando petición...")
+            socket.send_string("Petición: solicitar préstamo de libro")
+            respuesta = socket.recv_string()
+            print("[A] solicitarPrestamosLibro recibió:", respuesta)
+            print("Mensaje", i, "enviado")
+        i += 1
+        time.sleep(3)
+
+
+# Lanzar las tres funciones como hilos
+if __name__ == "__main__":
+    t1 = threading.Thread(target=devolverLibro)
+    t2 = threading.Thread(target=renovarLibro)
+    t3 = threading.Thread(target=solicitarPrestamosLibro)
+
+    t1.start()
+    t2.start()
+    t3.start()
+
+    t1.join()
+    t2.join()
+    t3.join()
