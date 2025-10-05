@@ -5,6 +5,7 @@ Lee peticiones desde un archivo de texto y las envía al Gestor de Carga (GC).
 Cada línea del archivo genera un hilo que envía una operación (préstamo, devolución, renovación).
 """
 
+from asyncio import sleep
 import threading
 import zmq
 import time
@@ -14,7 +15,7 @@ import sys
 from clases import LibroUsuario
 
 # Dirección del Gestor de Carga
-GC_ADDRESS = "tcp://10.43.103.6:5555"  # Cambia localhost por la IP del GC en otra máquina si aplica
+GC_ADDRESS = "tcp://localhost:5555"  # Cambia localhost por la IP del GC en otra máquina si aplica
 
 # Contexto y socket compartido (REQ)
 context = zmq.Context()
@@ -44,8 +45,8 @@ def enviar_peticion(operacion, codigo, titulo, autor, sede):
             # Enviar al GC
             socket.send_string(json.dumps(mensaje))
 
-            # Esperar respuesta (timeout 5s)
-            if socket.poll(5000):  # 5000 ms
+            # Esperar respuesta (timeout 15s)
+            if socket.poll(15000):  # 15000 ms
                 respuesta = socket.recv_string()
                 print(f"[PS] Respuesta del GC: {respuesta}")
             else:
@@ -56,11 +57,16 @@ def enviar_peticion(operacion, codigo, titulo, autor, sede):
 
 
 if __name__ == "__main__":
-    # Nombre de archivo (por defecto peticiones.txt)
-    archivo = "peticiones.txt"
-    if len(sys.argv) > 1:
-        archivo = sys.argv[1]
+    #Nombre de archivo (por defecto peticiones.txt)
+  
+    if len(sys.argv) < 2:
+        print("Uso: python PS.py archivo.txt")
+        sys.exit(1)
 
+    nombre_archivo = sys.argv[1]  #Primer argumento después del nombre del script
+    print(f"Archivo recibido: {nombre_archivo}")
+
+    archivo = nombre_archivo
     try:
         with open(archivo, "r", encoding="utf-8") as f:
             lineas = f.readlines()
@@ -70,6 +76,7 @@ if __name__ == "__main__":
 
     threads = []
     for line in lineas:
+
         parts = line.strip().split(",")
         if len(parts) != 5:
             print("[PS] Línea malformada:", line)

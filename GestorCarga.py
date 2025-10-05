@@ -15,8 +15,8 @@ from clases import LibroUsuario
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
 
 context = zmq.Context()
-publisher = context.socket(zmq.PUB)
-publisher.bind("tcp://*:5556")
+#publisher = context.socket(zmq.PUB)
+#publisher.bind("tcp://*:5556")
 
 
 # Socket REP para PS -> GC (préstamos, devoluciones, renovaciones)
