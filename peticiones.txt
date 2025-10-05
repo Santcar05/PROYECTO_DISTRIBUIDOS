@@ -20,7 +20,7 @@ PRESTAMO,ISBN-019,C++ Programming Language,Bjarne Stroustrup,SedeA
 DEVOLUCION,ISBN-020,JavaScript: The Good Parts,Douglas Crockford,SedeB
 RENOVACION,ISBN-021,Patrones de Diseño en Java,Steven John Metsker,SedeA
 PRESTAMO,ISBN-022,Arquitectura de Software,Len Bass,SedeB
-DEVOLUCION,ISBN-023,Scrum: El Arte de Hacer el Doble,Trabajo,Jeff Sutherland,SedeA
+DEVOLUCION,ISBN-023,Scrum: El Arte de Hacer el Doble Trabajo,Jeff Sutherland,SedeA
 RENOVACION,ISBN-024,The Lean Startup,Eric Ries,SedeB
 PRESTAMO,ISBN-025,Competencia de Algoritmos,Steven Skiena,SedeA
 DEVOLUCION,ISBN-026,Matemáticas Discretas,Kenneth Rosen,SedeB

@@ -1,162 +1,97 @@
+#!/usr/bin/env python3
+"""
+PS.py - Proceso Solicitante
+Lee peticiones desde un archivo de texto y las envía al Gestor de Carga (GC).
+Cada línea del archivo genera un hilo que envía una operación (préstamo, devolución, renovación).
+"""
+
 import threading
 import zmq
 import time
 import json
+import sys
 
 from clases import LibroUsuario
 
-# Contexto y socket compartido
+# Dirección del Gestor de Carga
+GC_ADDRESS = "tcp://10.43.103.6:5555"  # Cambia localhost por la IP del GC en otra máquina si aplica
+
+# Contexto y socket compartido (REQ)
 context = zmq.Context()
 socket = context.socket(zmq.REQ)
-# Colocar la IP del Gestor de Carga(la VM)
-#socket.connect("tcp://10.43.102.40:5555")
-socket.connect("tcp://localhost:5555")
+socket.connect(GC_ADDRESS)
 
-lock = threading.Lock()  # controla acceso al socket
+# Lock para evitar condiciones de carrera con el socket REQ
+lock = threading.Lock()
 
-# _________________ PRIMERA ENTREGA ______________________________________________
-def devolverLibro(codigo, titulo, autor, sede):
-    i = 0
 
+def enviar_peticion(operacion, codigo, titulo, autor, sede):
+    """
+    Envía una petición al Gestor de Carga y espera respuesta.
+    """
     with lock:
-        # Crear el libroUsuario a devolver
+        # Construir el objeto libroUsuario
         libroUsuario = LibroUsuario(codigo, titulo, autor, sede)
-        print(f"[A] devolverLibro enviando petición... {codigo} {titulo} {autor} {sede}")
-        
-        # Crear mensaje estructurado
+
         mensaje = {
-            "operacion": "devolucion",
+            "operacion": operacion.lower(),  # prestamo | devolucion | renovacion
             "libro_usuario": libroUsuario.to_dict(),
             "timestamp": time.time()
         }
-        
+
+        print(f"[PS] Enviando petición {operacion.upper()} -> {codigo}, {titulo}, {autor}, {sede}")
         try:
-            #Enviar mensaje JSON al gestor de carga
+            # Enviar al GC
             socket.send_string(json.dumps(mensaje))
-            print("Mensaje enviado al Gestor de Carga")
-            
-            #Esperar respuesta (Request-Reply)
-            if socket.poll(5000):  #Timeout de 5 segundos
+
+            # Esperar respuesta (timeout 5s)
+            if socket.poll(5000):  # 5000 ms
                 respuesta = socket.recv_string()
-                print(f"Respuesta del GC: {respuesta}")
+                print(f"[PS] Respuesta del GC: {respuesta}")
             else:
-                print("Timeout: No se recibió respuesta del GC")
-                
+                print("[PS] Timeout: No se recibió respuesta del GC")
+
         except Exception as e:
-            print(f"Error enviando mensaje: {e}")
-        
-        i += 1
-        time.sleep(1)  # Simula tiempo entre peticiones
-        
-#----------------------------------------------------------------------------------------------------------------------------
+            print(f"[PS] Error enviando petición: {e}")
 
 
-def renovarLibro(isbn, titulo, autor, sede):
-    i = 0
-    with lock:
-        print("[A] renovarLibro enviando petición...", isbn, titulo, autor, sede)
-        mensaje = {
-            "operacion": "renovacion",
-            "libro_usuario": {
-                "codigo": isbn,
-                "titulo": titulo,
-                "autor": autor,
-                "sede": sede
-            },
-            "timestamp": time.time()
-        }
-        socket.send_string(json.dumps(mensaje))
-        respuesta = socket.recv_string()
-        print("[A] renovarLibro recibió:", respuesta)
-        print("Mensaje", i, "enviado")
-        i += 1
-        time.sleep(2)
-
-def solicitarPrestamosLibro(isbn, titulo, autor, sede):
-    i = 0
-    with lock:
-        print("[A] solicitarPrestamosLibro enviando petición...", isbn, titulo, autor, sede)
-        mensaje = {
-            "operacion": "prestamo",
-            "libro_usuario": {
-                "codigo": isbn,
-                "titulo": titulo,
-                "autor": autor,
-                "sede": sede
-            },
-            "timestamp": time.time()
-        }
-        socket.send_string(json.dumps(mensaje))
-        respuesta = socket.recv_string()
-        print("[A] solicitarPrestamosLibro recibió:", respuesta)
-        print("Mensaje", i, "enviado")
-        i += 1
-        time.sleep(3)
-
-
-# Lanzar las tres funciones como hilos
 if __name__ == "__main__":
-    #Leer de un archivo de texto los requerimientos de prestamos
-    file = open("peticiones.txt", "r", encoding="utf-8")
-    conten = file.readlines()
-    file.close()
-    
-#Formato del archivo:
-#TIPO,ISBN,USUARIO,SEDE
-#Dependiendo de el tipo de petición, se llamará a una función u otra
+    # Nombre de archivo (por defecto peticiones.txt)
+    archivo = "peticiones.txt"
+    if len(sys.argv) > 1:
+        archivo = sys.argv[1]
+
+    try:
+        with open(archivo, "r", encoding="utf-8") as f:
+            lineas = f.readlines()
+    except FileNotFoundError:
+        print(f"Archivo {archivo} no encontrado.")
+        sys.exit(1)
+
     threads = []
-    for line in conten:
-        parts = line.strip().split(',')
+    for line in lineas:
+        parts = line.strip().split(",")
         if len(parts) != 5:
-            print("Línea malformada:", line)
+            print("[PS] Línea malformada:", line)
             continue
+
         tipo, isbn, titulo, autor, sede = parts
-        if tipo == "DEVOLUCION":
-            t = threading.Thread(target=devolverLibro, args = (isbn, titulo, autor,sede))
-        elif tipo == "RENOVACION":
-            t = threading.Thread(target=renovarLibro,args = (isbn, titulo, autor,sede) )
-        elif tipo == "PRESTAMO":
-            t = threading.Thread(target=solicitarPrestamosLibro,args = (isbn, titulo, autor,sede))
+
+        if tipo.upper() == "DEVOLUCION":
+            t = threading.Thread(target=enviar_peticion, args=("devolucion", isbn, titulo, autor, sede))
+        elif tipo.upper() == "RENOVACION":
+            t = threading.Thread(target=enviar_peticion, args=("renovacion", isbn, titulo, autor, sede))
+        elif tipo.upper() == "PRESTAMO":
+            t = threading.Thread(target=enviar_peticion, args=("prestamo", isbn, titulo, autor, sede))
         else:
-            print("Tipo desconocido:", tipo)
+            print("[PS] Tipo de operación desconocido:", tipo)
             continue
+
         threads.append(t)
         t.start()
-        
-        
-        
-#    t1 = threading.Thread(target=devolverLibro)
-#    t2 = threading.Thread(target=renovarLibro)
-#    t3 = threading.Thread(target=solicitarPrestamosLibro)
 
-#    t1.start()
-#    t2.start()
-#    t3.start()
+    # Esperar a que terminen todos los hilos
+    for t in threads:
+        t.join()
 
-#    t1.join()
-#    t2.join()
-#    t3.join()
-
-#--------------------------------------------------------------------------------
-# 2. Serializa y envía el objeto:
-#with lock:
-#    peticion = Peticion("DEVOLUCION", isbn, usuario, sede)
-#    data = pickle.dumps(peticion)
-#    socket.send(data)
-#    respuesta = socket.recv_string()
-#    print("[A] devolverLibro recibió:", respuesta)
-# ...existing code...
-
-#------------------------------------------------------------------------------------------
-#import pickle  # Agrega esta importación
-
-# 1. Definir clase de petición:
-#class Peticion:
-#    def __init__(self, tipo, isbn, usuario, sede):
-#        self.tipo = tipo
-#        self.isbn = isbn
-#        self.usuario = usuario
-#        self.sede = sede
-# ...existing code...
-#
-#
+    print("[PS] Todas las peticiones han sido procesadas.")
