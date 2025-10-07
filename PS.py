@@ -15,7 +15,7 @@ import sys
 from clases import LibroUsuario
 
 # Dirección del Gestor de Carga
-GC_ADDRESS = "tcp://localhost:5555"  # Cambia localhost por la IP del GC en otra máquina si aplica
+GC_ADDRESS = "tcp://localhost:5555"  # Se cambia localhost por la IP del GC en otra máquina si aplica
 
 # Contexto y socket compartido (REQ)
 context = zmq.Context()
@@ -57,7 +57,6 @@ def enviar_peticion(operacion, codigo, titulo, autor, sede):
 
 
 if __name__ == "__main__":
-    #Nombre de archivo (por defecto peticiones.txt)
   
     if len(sys.argv) < 2:
         print("Uso: python PS.py archivo.txt")
