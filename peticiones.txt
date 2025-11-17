@@ -1,50 +1,114 @@
-PRESTAMO,ISBN-001,Sistemas Distribuidos: Conceptos y Diseño,George Coulouris,SedeA
-DEVOLUCION,ISBN-002,Sistemas Distribuidos: Principios y Paradigmas,Andrew Tanenbaum,SedeB
-RENOVACION,ISBN-003,Introducción a los Algoritmos,Thomas Cormen,SedeA
-PRESTAMO,ISBN-004,Base de Datos Fundamentos,Abraham Silberschatz,SedeB
-DEVOLUCION,ISBN-005,Redes de Computadoras,Andrew Tanenbaum,SedeA
-RENOVACION,ISBN-006,Arquitectura de Computadoras,David Patterson,SedeB
-PRESTAMO,ISBN-007,Ingeniería de Software,Roger Pressman,SedeA
-DEVOLUCION,ISBN-008,Patrones de Diseño,Erich Gamma,SedeB
-RENOVACION,ISBN-009,Código Limpio,Robert Martin,SedeA
-PRESTAMO,ISBN-010,El Programador Pragmático,Andrew Hunt,SedeB
-DEVOLUCION,ISBN-011,Algoritmos y Estructuras de Datos,Mark Weiss,SedeA
-RENOVACION,ISBN-012,Inteligencia Artificial,Stuart Russell,SedeB
-PRESTAMO,ISBN-013,Aprendizaje Automático,Tom Mitchell,SedeA
-DEVOLUCION,ISBN-014,Minería de Datos,Jiawei Han,SedeB
-RENOVACION,ISBN-015,Seguridad Informática,William Stallings,SedeA
-PRESTAMO,ISBN-016,Criptografía Aplicada,Bruce Schneier,SedeB
-DEVOLUCION,ISBN-017,Programación en Python,Mark Lutz,SedeA
-RENOVACION,ISBN-018,Java como Programar,Paul Deitel,SedeB
-PRESTAMO,ISBN-019,C++ Programming Language,Bjarne Stroustrup,SedeA
-DEVOLUCION,ISBN-020,JavaScript: The Good Parts,Douglas Crockford,SedeB
-RENOVACION,ISBN-021,Patrones de Diseño en Java,Steven John Metsker,SedeA
-PRESTAMO,ISBN-022,Arquitectura de Software,Len Bass,SedeB
-DEVOLUCION,ISBN-023,Scrum: El Arte de Hacer el Doble Trabajo,Jeff Sutherland,SedeA
-RENOVACION,ISBN-024,The Lean Startup,Eric Ries,SedeB
-PRESTAMO,ISBN-025,Competencia de Algoritmos,Steven Skiena,SedeA
-DEVOLUCION,ISBN-026,Matemáticas Discretas,Kenneth Rosen,SedeB
-RENOVACION,ISBN-027,Álgebra Lineal,Gilbert Strang,SedeA
-PRESTAMO,ISBN-028,Cálculo Multivariable,James Stewart,SedeB
-DEVOLUCION,ISBN-029,Probabilidad y Estadística,Morris DeGroot,SedeA
-RENOVACION,ISBN-030,Ecuaciones Diferenciales,William Boyce,SedeB
-PRESTAMO,ISBN-031,Física para la Ciencia,Tipler Mosca,SedeA
-DEVOLUCION,ISBN-032,Química General,Raymond Chang,SedeB
-RENOVACION,ISBN-033,Biología Molecular,James Watson,SedeA
-PRESTAMO,ISBN-034,Genética Clásica,Gregor Mendel,SedeB
-DEVOLUCION,ISBN-035,Anatomía Humana,Henry Gray,SedeA
-RENOVACION,ISBN-036,Fisiología Médica,Arthur Guyton,SedeB
-PRESTAMO,ISBN-037,Microbiología de Prescott,Joanne Willey,SedeA
-DEVOLUCION,ISBN-038,Inmunología de Kuby,Thomas Kindt,SedeB
-RENOVACION,ISBN-039,Farmacología Básica,Bertram Katzung,SedeA
-PRESTAMO,ISBN-040,Psicología Cognitiva,Robert Sternberg,SedeB
-DEVOLUCION,ISBN-041,Sociología Contemporánea,Anthony Giddens,SedeA
-RENOVACION,ISBN-042,Antropología Cultural,Conrad Kottak,SedeB
-PRESTAMO,ISBN-043,Filosofía de la Ciencia,Thomas Kuhn,SedeA
-DEVOLUCION,ISBN-044,Historia de la Computación,Martin Campbell-Kelly,SedeB
-RENOVACION,ISBN-045,Ética para Ingenieros,Charles Harris,SedeA
-PRESTAMO,ISBN-046,Derecho Informático,Juan Pavón,SedeB
-DEVOLUCION,ISBN-047,Economía Digital,Carl Shapiro,SedeA
-RENOVACION,ISBN-048,Marketing Digital,Philip Kotler,SedeB
-PRESTAMO,ISBN-049,Emprendimiento Tecnológico,Steve Blank,SedeA
-DEVOLUCION,ISBN-050,Liderazgo de Equipos,Patrick Lencioni,SedeB
+PRESTAMO,LIB0001,Cien años de soledad,Gabriel García Márquez,SedeA
+DEVOLUCION,LIB0002,Don Quijote de la Mancha,Miguel de Cervantes,SedeB
+RENOVACION,LIB0003,El amor en los tiempos del cólera,Gabriel García Márquez,SedeA
+PRESTAMO,LIB0004,1984,George Orwell,SedeB
+DEVOLUCION,LIB0005,Crónica de una muerte anunciada,Gabriel García Márquez,SedeA
+PRESTAMO,LIB0006,La sombra del viento,Carlos Ruiz Zafón,SedeB
+RENOVACION,LIB0007,El principito,Antoine de Saint-Exupéry,SedeA
+DEVOLUCION,LIB0008,Orgullo y prejuicio,Jane Austen,SedeB
+PRESTAMO,LIB0009,Harry Potter y la piedra filosofal,J.K. Rowling,SedeA
+RENOVACION,LIB0010,El código Da Vinci,Dan Brown,SedeB
+PRESTAMO,LIB0011,Los juegos del hambre,Suzanne Collins,SedeA
+DEVOLUCION,LIB0012,Cincuenta sombras de Grey,E.L. James,SedeB
+RENOVACION,LIB0013,El hobbit,J.R.R. Tolkien,SedeA
+PRESTAMO,LIB0014,El señor de los anillos,J.R.R. Tolkien,SedeB
+DEVOLUCION,LIB0015,Crepúsculo,Stephenie Meyer,SedeA
+PRESTAMO,LIB0016,La casa de los espíritus,Isabel Allende,SedeB
+RENOVACION,LIB0017,El alquimista,Paulo Coelho,SedeA
+DEVOLUCION,LIB0018,La ciudad y los perros,Mario Vargas Llosa,SedeB
+PRESTAMO,LIB0019,Rayuela,Julio Cortázar,SedeA
+RENOVACION,LIB0020,Pedro Páramo,Juan Rulfo,SedeB
+PRESTAMO,LIB0021,Ficciones,Jorge Luis Borges,SedeA
+DEVOLUCION,LIB0022,El túnel,Ernesto Sábato,SedeB
+PRESTAMO,LIB0023,Los detectives salvajes,Roberto Bolaño,SedeA
+RENOVACION,LIB0024,La tregua,Mario Benedetti,SedeB
+DEVOLUCION,LIB0025,El perfume,Patrick Süskind,SedeA
+PRESTAMO,LIB0026,La metamorfosis,Franz Kafka,SedeB
+RENOVACION,LIB0027,El extranjero,Albert Camus,SedeA
+DEVOLUCION,LIB0028,Crimen y castigo,Fiódor Dostoyevski,SedeB
+PRESTAMO,LIB0029,Los miserables,Victor Hugo,SedeA
+RENOVACION,LIB0030,Guerra y paz,León Tolstói,SedeB
+PRESTAMO,LIB0031,Anna Karenina,León Tolstói,SedeA
+DEVOLUCION,LIB0032,Ulises,James Joyce,SedeB
+RENOVACION,LIB0033,En busca del tiempo perdido,Marcel Proust,SedeA
+PRESTAMO,LIB0034,La Odisea,Homero,SedeB
+DEVOLUCION,LIB0035,La Ilíada,Homero,SedeA
+PRESTAMO,LIB0036,La divina comedia,Dante Alighieri,SedeB
+RENOVACION,LIB0037,Hamlet,William Shakespeare,SedeA
+DEVOLUCION,LIB0038,Macbeth,William Shakespeare,SedeB
+PRESTAMO,LIB0039,Romeo y Julieta,William Shakespeare,SedeA
+RENOVACION,LIB0040,Otelo,William Shakespeare,SedeB
+PRESTAMO,LIB0041,El guardián entre el centeno,J.D. Salinger,SedeA
+DEVOLUCION,LIB0042,Matar un ruiseñor,Harper Lee,SedeB
+RENOVACION,LIB0043,Fahrenheit 451,Ray Bradbury,SedeA
+PRESTAMO,LIB0044,Un mundo feliz,Aldous Huxley,SedeB
+DEVOLUCION,LIB0045,El gran Gatsby,F. Scott Fitzgerald,SedeA
+PRESTAMO,LIB0046,Lo que el viento se llevó,Margaret Mitchell,SedeB
+RENOVACION,LIB0047,El retrato de Dorian Gray,Oscar Wilde,SedeA
+DEVOLUCION,LIB0048,Drácula,Bram Stoker,SedeB
+PRESTAMO,LIB0049,Frankenstein,Mary Shelley,SedeA
+RENOVACION,LIB0050,Jane Eyre,Charlotte Brontë,SedeB
+PRESTAMO,LIB0051,Cumbres borrascosas,Emily Brontë,SedeA
+DEVOLUCION,LIB0052,Las aventuras de Tom Sawyer,Mark Twain,SedeB
+RENOVACION,LIB0053,Las aventuras de Huckleberry Finn,Mark Twain,SedeA
+PRESTAMO,LIB0054,Moby Dick,Herman Melville,SedeB
+DEVOLUCION,LIB0055,El viejo y el mar,Ernest Hemingway,SedeA
+PRESTAMO,LIB0056,Por quién doblan las campanas,Ernest Hemingway,SedeB
+RENOVACION,LIB0057,El sol también se levanta,Ernest Hemingway,SedeA
+DEVOLUCION,LIB0058,Las uvas de la ira,John Steinbeck,SedeB
+PRESTAMO,LIB0059,De ratones y hombres,John Steinbeck,SedeA
+RENOVACION,LIB0060,Al este del Edén,John Steinbeck,SedeB
+PRESTAMO,LIB0061,El ruido y la furia,William Faulkner,SedeA
+DEVOLUCION,LIB0062,Mientras agonizo,William Faulkner,SedeB
+RENOVACION,LIB0063,Lolita,Vladimir Nabokov,SedeA
+PRESTAMO,LIB0064,La naranja mecánica,Anthony Burgess,SedeB
+DEVOLUCION,LIB0065,El nombre de la rosa,Umberto Eco,SedeA
+PRESTAMO,LIB0066,El péndulo de Foucault,Umberto Eco,SedeB
+RENOVACION,LIB0067,La insoportable levedad del ser,Milan Kundera,SedeA
+DEVOLUCION,LIB0068,El libro de la risa y el olvido,Milan Kundera,SedeB
+PRESTAMO,LIB0069,Ensayo sobre la ceguera,José Saramago,SedeA
+RENOVACION,LIB0070,Todos los nombres,José Saramago,SedeB
+PRESTAMO,LIB0071,El evangelio según Jesucristo,José Saramago,SedeA
+DEVOLUCION,LIB0072,La caverna,José Saramago,SedeB
+RENOVACION,LIB0073,Memorial del convento,José Saramago,SedeA
+PRESTAMO,LIB0074,El año de la muerte de Ricardo Reis,José Saramago,SedeB
+DEVOLUCION,LIB0075,Levantado del suelo,José Saramago,SedeA
+PRESTAMO,LIB0076,Las intermitencias de la muerte,José Saramago,SedeB
+RENOVACION,LIB0077,La balsa de piedra,José Saramago,SedeA
+DEVOLUCION,LIB0078,El hombre duplicado,José Saramago,SedeB
+PRESTAMO,LIB0079,Caín,José Saramago,SedeA
+RENOVACION,LIB0080,Claraboya,José Saramago,SedeB
+PRESTAMO,LIB0081,La peste,Albert Camus,SedeA
+DEVOLUCION,LIB0082,El mito de Sísifo,Albert Camus,SedeB
+RENOVACION,LIB0083,La caída,Albert Camus,SedeA
+PRESTAMO,LIB0084,El hombre rebelde,Albert Camus,SedeB
+DEVOLUCION,LIB0085,Bodas,Albert Camus,SedeA
+PRESTAMO,LIB0086,El verano,Albert Camus,SedeB
+RENOVACION,LIB0087,Calígula,Albert Camus,SedeA
+DEVOLUCION,LIB0088,Los justos,Albert Camus,SedeB
+PRESTAMO,LIB0089,Estado de sitio,Albert Camus,SedeA
+RENOVACION,LIB0090,El malentendido,Albert Camus,SedeB
+PRESTAMO,LIB0091,Los hermanos Karamázov,Fiódor Dostoyevski,SedeA
+DEVOLUCION,LIB0092,El idiota,Fiódor Dostoyevski,SedeB
+RENOVACION,LIB0093,Demonios,Fiódor Dostoyevski,SedeA
+PRESTAMO,LIB0094,El jugador,Fiódor Dostoyevski,SedeB
+DEVOLUCION,LIB0095,Memorias del subsuelo,Fiódor Dostoyevski,SedeA
+PRESTAMO,LIB0096,Pobres gentes,Fiódor Dostoyevski,SedeB
+RENOVACION,LIB0097,Noches blancas,Fiódor Dostoyevski,SedeA
+DEVOLUCION,LIB0098,El doble,Fiódor Dostoyevski,SedeB
+PRESTAMO,LIB0099,Humillados y ofendidos,Fiódor Dostoyevski,SedeA
+RENOVACION,LIB0100,El eterno marido,Fiódor Dostoyevski,SedeB
+PRESTAMO,LIB0101,La muerte de Iván Ilich,León Tolstói,SedeA
+DEVOLUCION,LIB0102,Resurrección,León Tolstói,SedeB
+RENOVACION,LIB0103,Los cosacos,León Tolstói,SedeA
+PRESTAMO,LIB0104,La sonata a Kreutzer,León Tolstói,SedeB
+DEVOLUCION,LIB0105,Hadyi Murad,León Tolstói,SedeA
+PRESTAMO,LIB0106,Infancia,León Tolstói,SedeB
+RENOVACION,LIB0107,Adolescencia,León Tolstói,SedeA
+DEVOLUCION,LIB0108,Juventud,León Tolstói,SedeB
+PRESTAMO,LIB0109,Sebastopol,León Tolstói,SedeA
+RENOVACION,LIB0110,El diablo,León Tolstói,SedeB
+PRESTAMO,LIB0111,Retrato del artista adolescente,James Joyce,SedeA
+DEVOLUCION,LIB0112,Dublineses,James Joyce,SedeB
+RENOVACION,LIB0113,Finnegans Wake,James Joyce,SedeA
+PRESTAMO,LIB0114,Exiliados,James Joyce,SedeB

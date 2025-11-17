@@ -15,7 +15,8 @@ import sys
 from clases import LibroUsuario
 
 # Dirección del Gestor de Carga
-GC_ADDRESS = "tcp://localhost:5555"  # Se cambia localhost por la IP del GC en otra máquina si aplica
+#GC_ADDRESS = "tcp://10.43.102.40:5555"  # Se cambia localhost por la IP del GC en otra máquina si aplica
+GC_ADDRESS = "tcp://localhost:5555"
 
 # Contexto y socket compartido (REQ)
 context = zmq.Context()
