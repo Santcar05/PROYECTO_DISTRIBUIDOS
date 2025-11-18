@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Actor_Devolucion_Multihilo.py
 """
@@ -16,7 +15,7 @@ logging.basicConfig(level=logging.INFO, format="[%(asctime)s] Actor_Devolucion_M
 context = zmq.Context()
 
 sub_socket = context.socket(zmq.SUB)
-sub_socket.connect("tcp://localhost:5556")
+sub_socket.connect("tcp://10.43.102.40:5556")
 sub_socket.setsockopt_string(zmq.SUBSCRIBE, "devolucion")
 
 GESTORES = [

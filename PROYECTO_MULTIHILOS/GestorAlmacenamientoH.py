@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
-GestorAlmacenamiento_Multihilo.py (VERSIÓN MEJORADA)
-Gestor con POOL DE HILOS para procesar peticiones en PARALELO.
+GestorAlmacenamiento.py
+Gestor con patrón ROUTER-DEALER para concurrencia
 """
 
 import zmq
@@ -9,27 +8,27 @@ import json
 import logging
 import threading
 import time
+import shutil
 import os
 import sys
-import queue
 from datetime import datetime
-from Clases import LibroUsuario
+from Clases import LibroBiblioteca, LibroUsuario
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] GA-%(sede)s: %(message)s")
 
 if len(sys.argv) < 2:
-    print("Uso: python GestorAlmacenamiento_Multihilo.py <SedeA|SedeB>")
+    print("Uso: python GestorAlmacenamiento.py <SedeA|SedeB>")
     sys.exit(1)
 
 SEDE = sys.argv[1]
 
 # Configuración según sede
 if SEDE == "SedeA":
-    PUERTO_REP = 5557
+    PUERTO_FRONTEND = 5557
     BD_PRIMARIA = "BD_SedeA.txt"
     BD_PRESTAMOS = "BD_Prestamos_SedeA.txt"
 elif SEDE == "SedeB":
-    PUERTO_REP = 5559
+    PUERTO_FRONTEND = 5559
     BD_PRIMARIA = "BD_SedeB.txt"
     BD_PRESTAMOS = "BD_Prestamos_SedeB.txt"
 else:
@@ -38,29 +37,26 @@ else:
 
 logger = logging.LoggerAdapter(logging.getLogger(), {'sede': SEDE})
 
-# CONFIGURACIÓN MULTIHILO
-NUM_HILOS_TRABAJADORES = 4  # ← AQUÍ SE CONFIGURA EL NÚMERO DE HILOS
+# Puerto interno para workers
+PUERTO_BACKEND = PUERTO_FRONTEND + 1000  # 6557 o 6559
 
-# Estado compartido
 bd_lock = threading.Lock()
 context = zmq.Context()
-
-# Cola de peticiones
-cola_peticiones = queue.Queue()
-
-# Socket REP (recibe peticiones)
-rep_socket = context.socket(zmq.REP)
-rep_socket.bind(f"tcp://*:{PUERTO_REP}")
-logger.info(f"Socket REP escuchando en tcp://*:{PUERTO_REP}")
 
 def cargar_bd():
     """Carga la BD en memoria"""
     libros = {}
     try:
         with open(BD_PRIMARIA, 'r', encoding='utf-8') as f:
-            for linea in f:
+            for i, linea in enumerate(f):
+                if i == 0 and ('codigo' in linea.lower() or 'titulo' in linea.lower()):
+                    continue
+                
                 partes = linea.strip().split('|')
-                if len(partes) >= 5:
+                if len(partes) != 5:
+                    continue
+                
+                try:
                     codigo = partes[0]
                     libros[codigo] = {
                         'titulo': partes[1],
@@ -68,7 +64,10 @@ def cargar_bd():
                         'ejemplares': int(partes[3]),
                         'sede': partes[4]
                     }
-        logger.info(f"BD cargada: {len(libros)} libros desde {BD_PRIMARIA}")
+                except (ValueError, IndexError):
+                    continue
+                    
+        logger.info(f"BD cargada con {len(libros)} libros")
     except FileNotFoundError:
         logger.warning(f"BD no encontrada, creando {BD_PRIMARIA}")
         with open(BD_PRIMARIA, 'w', encoding='utf-8') as f:
@@ -76,7 +75,7 @@ def cargar_bd():
     return libros
 
 def guardar_bd(libros):
-    """Guarda BD en disco"""
+    """Guarda la BD"""
     try:
         with open(BD_PRIMARIA, 'w', encoding='utf-8') as f:
             for codigo, info in libros.items():
@@ -85,7 +84,7 @@ def guardar_bd(libros):
         logger.error(f"Error guardando BD: {e}")
 
 def registrar_prestamo(libro_usuario):
-    """Registra préstamo en archivo"""
+    """Registra préstamo"""
     try:
         with open(BD_PRESTAMOS, 'a', encoding='utf-8') as f:
             f.write(f"{libro_usuario.codigo}|{libro_usuario.titulo}|{libro_usuario.autor}|"
@@ -93,137 +92,123 @@ def registrar_prestamo(libro_usuario):
     except Exception as e:
         logger.error(f"Error registrando préstamo: {e}")
 
-def trabajador(id_trabajador, libros):
-    """
-    Hilo trabajador que procesa peticiones en PARALELO.
-    """
-    logger.info(f"[TRABAJADOR-{id_trabajador}] Iniciado")
+def procesar_devolucion(libro_usuario, libros):
+    """Procesa devolución"""
+    codigo = libro_usuario.codigo
+    if codigo in libros:
+        libros[codigo]['ejemplares'] += 1
+        guardar_bd(libros)
+        return {"exito": True, "mensaje": f"Devolución en {SEDE}. Ejemplares: {libros[codigo]['ejemplares']}"}
+    else:
+        return {"exito": False, "mensaje": "Libro no encontrado"}
+
+def procesar_renovacion(libro_usuario, libros):
+    """Procesa renovación"""
+    try:
+        with open(BD_PRESTAMOS, 'a', encoding='utf-8') as f:
+            f.write(f"RENOVACION|{libro_usuario.codigo}|{libro_usuario.fecha_devolucion}|{datetime.now().isoformat()}\n")
+        return {"exito": True, "mensaje": f"Renovación en {SEDE}"}
+    except Exception as e:
+        return {"exito": False, "mensaje": str(e)}
+
+def verificar_disponibilidad(libro_usuario, libros):
+    """Verifica disponibilidad"""
+    codigo = libro_usuario.codigo
+    if codigo in libros:
+        if libros[codigo]['ejemplares'] > 0:
+            return {"disponible": True, "ejemplares": libros[codigo]['ejemplares'], "sede": SEDE}
+        else:
+            return {"disponible": False, "mensaje": "Sin ejemplares", "sede": SEDE}
+    else:
+        return {"disponible": False, "mensaje": "Libro no existe", "sede": SEDE}
+
+def procesar_prestamo(libro_usuario, libros):
+    """Procesa préstamo"""
+    codigo = libro_usuario.codigo
+    if codigo in libros and libros[codigo]['ejemplares'] > 0:
+        libros[codigo]['ejemplares'] -= 1
+        guardar_bd(libros)
+        registrar_prestamo(libro_usuario)
+        return {"exito": True, "mensaje": f"Préstamo en {SEDE}. Ejemplares: {libros[codigo]['ejemplares']}"}
+    else:
+        return {"exito": False, "mensaje": "No disponible"}
+
+def worker_thread(worker_id, libros):
+    """Thread worker que procesa peticiones"""
+    worker_socket = context.socket(zmq.REP)
+    worker_socket.connect(f"tcp://localhost:{PUERTO_BACKEND}")
+    
+    logger.info(f"[WORKER-{worker_id}] Iniciado")
     
     while True:
         try:
-            # Obtener petición de la cola (timeout 1 segundo)
-            try:
-                item = cola_peticiones.get(timeout=1)
-            except queue.Empty:
-                continue
-            
-            data = item['data']
-            socket_respuesta = item['socket']
+            # Recibir petición (socket REP recibe directamente)
+            mensaje = worker_socket.recv_string()
+            data = json.loads(mensaje)
             
             operacion = data.get("operacion")
             libro_usuario_dict = data.get("libro_usuario", {})
             libro_usuario = LibroUsuario.from_dict(libro_usuario_dict)
-            
-            logger.info(f"[TRABAJADOR-{id_trabajador}] Procesando {operacion}: {libro_usuario.codigo}")
-            
-            respuesta = {}
-            
-            # Procesar según operación
-            if operacion == "devolucion":
-                with bd_lock:
-                    codigo = libro_usuario.codigo
-                    if codigo in libros:
-                        libros[codigo]['ejemplares'] += 1
-                        guardar_bd(libros)
-                        respuesta = {"exito": True, "mensaje": f"Devolución en {SEDE}. Ejemplares: {libros[codigo]['ejemplares']}"}
-                    else:
-                        respuesta = {"exito": False, "mensaje": "Libro no encontrado"}
-            
-            elif operacion == "renovacion":
-                try:
-                    with open(BD_PRESTAMOS, 'a', encoding='utf-8') as f:
-                        f.write(f"RENOVACION|{libro_usuario.codigo}|{libro_usuario.fecha_devolucion}|{datetime.now().isoformat()}\n")
-                    respuesta = {"exito": True, "mensaje": f"Renovación en {SEDE}"}
-                except Exception as e:
-                    respuesta = {"exito": False, "mensaje": str(e)}
-            
-            elif operacion == "verificar_disponibilidad":
-                with bd_lock:
-                    codigo = libro_usuario.codigo
-                    if codigo in libros and libros[codigo]['ejemplares'] > 0:
-                        respuesta = {"disponible": True, "ejemplares": libros[codigo]['ejemplares'], "sede": SEDE}
-                    else:
-                        respuesta = {"disponible": False, "mensaje": "No disponible", "sede": SEDE}
-            
-            elif operacion == "prestamo":
-                with bd_lock:
-                    codigo = libro_usuario.codigo
-                    if codigo in libros and libros[codigo]['ejemplares'] > 0:
-                        libros[codigo]['ejemplares'] -= 1
-                        guardar_bd(libros)
-                        registrar_prestamo(libro_usuario)
-                        respuesta = {"exito": True, "mensaje": f"Préstamo en {SEDE}. Restantes: {libros[codigo]['ejemplares']}"}
-                    else:
-                        respuesta = {"exito": False, "mensaje": "No se pudo realizar"}
-            
-            else:
-                respuesta = {"exito": False, "mensaje": "Operación desconocida"}
-            
-            # Enviar respuesta
-            socket_respuesta.send_string(json.dumps(respuesta))
-            
-            logger.info(f"[TRABAJADOR-{id_trabajador}] ✓ Respuesta enviada: {respuesta.get('mensaje', respuesta)}")
-            
-            cola_peticiones.task_done()
-            
+
+            logger.info(f"[WORKER-{worker_id}] Procesando {operacion}: {libro_usuario.codigo}")
+
+            with bd_lock:
+                if operacion == "devolucion":
+                    respuesta = procesar_devolucion(libro_usuario, libros)
+                elif operacion == "renovacion":
+                    respuesta = procesar_renovacion(libro_usuario, libros)
+                elif operacion == "verificar_disponibilidad":
+                    respuesta = verificar_disponibilidad(libro_usuario, libros)
+                elif operacion == "prestamo":
+                    respuesta = procesar_prestamo(libro_usuario, libros)
+                else:
+                    respuesta = {"exito": False, "mensaje": "Operación desconocida"}
+
+            # Enviar respuesta (socket REP envía directamente)
+            worker_socket.send_string(json.dumps(respuesta))
+            logger.info(f"[WORKER-{worker_id}] ✓ Procesado")
+
+        except json.JSONDecodeError as e:
+            logger.error(f"[WORKER-{worker_id}] Error JSON: {e}")
+            worker_socket.send_string(json.dumps({"exito": False, "mensaje": "JSON inválido"}))
         except Exception as e:
-            logger.error(f"[TRABAJADOR-{id_trabajador}] Error: {e}")
+            logger.error(f"[WORKER-{worker_id}] Error: {e}")
             try:
-                socket_respuesta.send_string(json.dumps({"exito": False, "mensaje": str(e)}))
+                worker_socket.send_string(json.dumps({"exito": False, "mensaje": str(e)}))
             except:
                 pass
 
-def receptor_peticiones():
-    """
-    Hilo que recibe peticiones del socket REP y las distribuye a los trabajadores.
-    """
-    logger.info("Receptor de peticiones iniciado")
-    
-    while True:
-        try:
-            mensaje = rep_socket.recv_string()
-            data = json.loads(mensaje)
-            
-            # Agregar a cola para que un trabajador la procese
-            item = {
-                'data': data,
-                'socket': rep_socket  # Socket para enviar respuesta
-            }
-            
-            cola_peticiones.put(item)
-            logger.info(f"📨 Petición agregada a cola (Tamaño: {cola_peticiones.qsize()})")
-            
-        except json.JSONDecodeError as e:
-            logger.error(f"Error parseando JSON: {e}")
-            rep_socket.send_string(json.dumps({"exito": False, "mensaje": "JSON inválido"}))
-        except Exception as e:
-            logger.error(f"Error recibiendo petición: {e}")
-
 if __name__ == "__main__":
-    logger.info("=" * 60)
-    logger.info(f"Gestor de Almacenamiento {SEDE} MULTIHILO")
-    logger.info(f"Número de hilos trabajadores: {NUM_HILOS_TRABAJADORES}")
-    logger.info("=" * 60)
+    logger.info(f"Gestor de Almacenamiento {SEDE} iniciado")
     
     # Cargar BD
     libros = cargar_bd()
     
-    # Iniciar receptor de peticiones
-    hilo_receptor = threading.Thread(target=receptor_peticiones, daemon=True)
-    hilo_receptor.start()
+    # Socket ROUTER (frontend - recibe de Actores)
+    frontend = context.socket(zmq.ROUTER)
+    frontend.bind(f"tcp://*:{PUERTO_FRONTEND}")
+    logger.info(f"Frontend ROUTER en tcp://*:{PUERTO_FRONTEND}")
     
-    # Iniciar pool de trabajadores
-    hilos = []
-    for i in range(NUM_HILOS_TRABAJADORES):
-        hilo = threading.Thread(target=trabajador, args=(i, libros), daemon=True)
-        hilo.start()
-        hilos.append(hilo)
+    # Socket DEALER (backend - distribuye a workers)
+    backend = context.socket(zmq.DEALER)
+    backend.bind(f"tcp://*:{PUERTO_BACKEND}")
+    logger.info(f"Backend DEALER en tcp://*:{PUERTO_BACKEND}")
     
-    logger.info(f"✓ {NUM_HILOS_TRABAJADORES} trabajadores iniciados")
+    # Iniciar workers
+    NUM_WORKERS = 4
+    for i in range(NUM_WORKERS):
+        thread = threading.Thread(target=worker_thread, args=(i, libros), daemon=True)
+        thread.start()
     
+    logger.info(f"{NUM_WORKERS} workers iniciados")
+    
+    # Proxy ROUTER-DEALER (conecta frontend con backend)
     try:
-        while True:
-            time.sleep(10)
-            logger.info(f"📊 Estado: Cola={cola_peticiones.qsize()} peticiones")
+        logger.info("Iniciando proxy ROUTER-DEALER...")
+        zmq.proxy(frontend, backend)
     except KeyboardInterrupt:
         logger.info("Deteniendo GA...")
+    finally:
+        frontend.close()
+        backend.close()
+        context.term()
