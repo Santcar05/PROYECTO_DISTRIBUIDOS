@@ -1,0 +1,1000 @@
+LIB0001|Cien años de soledad|Gabriel García Márquez|1|SedeA
+LIB0002|Don Quijote de la Mancha|Miguel de Cervantes|12|SedeB
+LIB0003|El amor en los tiempos del cólera|Gabriel García Márquez|3|SedeA
+LIB0004|1984|George Orwell|8|SedeB
+LIB0005|Crónica de una muerte anunciada|Gabriel García Márquez|11|SedeA
+LIB0006|La sombra del viento|Carlos Ruiz Zafón|2|SedeB
+LIB0007|El principito|Antoine de Saint-Exupéry|15|SedeA
+LIB0008|Orgullo y prejuicio|Jane Austen|8|SedeB
+LIB0009|Harry Potter y la piedra filosofal|J.K. Rowling|6|SedeA
+LIB0010|El código Da Vinci|Dan Brown|9|SedeB
+LIB0011|Los juegos del hambre|Suzanne Collins|4|SedeA
+LIB0012|Cincuenta sombras de Grey|E.L. James|6|SedeB
+LIB0013|El hobbit|J.R.R. Tolkien|11|SedeA
+LIB0014|El señor de los anillos|J.R.R. Tolkien|3|SedeB
+LIB0015|Crepúsculo|Stephenie Meyer|9|SedeA
+LIB0016|La casa de los espíritus|Isabel Allende|2|SedeB
+LIB0017|El alquimista|Paulo Coelho|13|SedeA
+LIB0018|La ciudad y los perros|Mario Vargas Llosa|8|SedeB
+LIB0019|Rayuela|Julio Cortázar|0|SedeA
+LIB0020|Pedro Páramo|Juan Rulfo|8|SedeB
+LIB0021|Ficciones|Jorge Luis Borges|1|SedeA
+LIB0022|El túnel|Ernesto Sábato|11|SedeB
+LIB0023|Los detectives salvajes|Roberto Bolaño|0|SedeA
+LIB0024|La tregua|Mario Benedetti|6|SedeB
+LIB0025|El perfume|Patrick Süskind|13|SedeA
+LIB0026|La metamorfosis|Franz Kafka|6|SedeB
+LIB0027|El extranjero|Albert Camus|8|SedeA
+LIB0028|Crimen y castigo|Fiódor Dostoyevski|9|SedeB
+LIB0029|Los miserables|Victor Hugo|0|SedeA
+LIB0030|Guerra y paz|León Tolstói|4|SedeB
+LIB0031|Anna Karenina|León Tolstói|2|SedeA
+LIB0032|Ulises|James Joyce|6|SedeB
+LIB0033|En busca del tiempo perdido|Marcel Proust|3|SedeA
+LIB0034|La Odisea|Homero|8|SedeB
+LIB0035|La Ilíada|Homero|15|SedeA
+LIB0036|La divina comedia|Dante Alighieri|3|SedeB
+LIB0037|Hamlet|William Shakespeare|9|SedeA
+LIB0038|Macbeth|William Shakespeare|12|SedeB
+LIB0039|Romeo y Julieta|William Shakespeare|6|SedeA
+LIB0040|Otelo|William Shakespeare|6|SedeB
+LIB0041|El guardián entre el centeno|J.D. Salinger|3|SedeA
+LIB0042|Matar un ruiseñor|Harper Lee|12|SedeB
+LIB0043|Fahrenheit 451|Ray Bradbury|9|SedeA
+LIB0044|Un mundo feliz|Aldous Huxley|1|SedeB
+LIB0045|El gran Gatsby|F. Scott Fitzgerald|15|SedeA
+LIB0046|Lo que el viento se llevó|Margaret Mitchell|0|SedeB
+LIB0047|El retrato de Dorian Gray|Oscar Wilde|6|SedeA
+LIB0048|Drácula|Bram Stoker|12|SedeB
+LIB0049|Frankenstein|Mary Shelley|3|SedeA
+LIB0050|Jane Eyre|Charlotte Brontë|5|SedeB
+LIB0051|Cumbres borrascosas|Emily Brontë|0|SedeA
+LIB0052|Las aventuras de Tom Sawyer|Mark Twain|13|SedeB
+LIB0053|Las aventuras de Huckleberry Finn|Mark Twain|8|SedeA
+LIB0054|Moby Dick|Herman Melville|0|SedeB
+LIB0055|El viejo y el mar|Ernest Hemingway|14|SedeA
+LIB0056|Por quién doblan las campanas|Ernest Hemingway|2|SedeB
+LIB0057|El sol también se levanta|Ernest Hemingway|5|SedeA
+LIB0058|Las uvas de la ira|John Steinbeck|11|SedeB
+LIB0059|De ratones y hombres|John Steinbeck|4|SedeA
+LIB0060|Al este del Edén|John Steinbeck|4|SedeB
+LIB0061|El ruido y la furia|William Faulkner|0|SedeA
+LIB0062|Mientras agonizo|William Faulkner|9|SedeB
+LIB0063|Lolita|Vladimir Nabokov|6|SedeA
+LIB0064|La naranja mecánica|Anthony Burgess|5|SedeB
+LIB0065|El nombre de la rosa|Umberto Eco|11|SedeA
+LIB0066|El péndulo de Foucault|Umberto Eco|0|SedeB
+LIB0067|La insoportable levedad del ser|Milan Kundera|8|SedeA
+LIB0068|El libro de la risa y el olvido|Milan Kundera|9|SedeB
+LIB0069|Ensayo sobre la ceguera|José Saramago|2|SedeA
+LIB0070|Todos los nombres|José Saramago|7|SedeB
+LIB0071|El evangelio según Jesucristo|José Saramago|0|SedeA
+LIB0072|La caverna|José Saramago|8|SedeB
+LIB0073|Memorial del convento|José Saramago|5|SedeA
+LIB0074|El año de la muerte de Ricardo Reis|José Saramago|2|SedeB
+LIB0075|Levantado del suelo|José Saramago|7|SedeA
+LIB0076|Las intermitencias de la muerte|José Saramago|3|SedeB
+LIB0077|La balsa de piedra|José Saramago|4|SedeA
+LIB0078|El hombre duplicado|José Saramago|9|SedeB
+LIB0079|Caín|José Saramago|4|SedeA
+LIB0080|Claraboya|José Saramago|3|SedeB
+LIB0081|La peste|Albert Camus|5|SedeA
+LIB0082|El mito de Sísifo|Albert Camus|10|SedeB
+LIB0083|La caída|Albert Camus|5|SedeA
+LIB0084|El hombre rebelde|Albert Camus|0|SedeB
+LIB0085|Bodas|Albert Camus|7|SedeA
+LIB0086|El verano|Albert Camus|3|SedeB
+LIB0087|Calígula|Albert Camus|5|SedeA
+LIB0088|Los justos|Albert Camus|8|SedeB
+LIB0089|Estado de sitio|Albert Camus|0|SedeA
+LIB0090|El malentendido|Albert Camus|6|SedeB
+LIB0091|Los hermanos Karamázov|Fiódor Dostoyevski|4|SedeA
+LIB0092|El idiota|Fiódor Dostoyevski|11|SedeB
+LIB0093|Demonios|Fiódor Dostoyevski|5|SedeA
+LIB0094|El jugador|Fiódor Dostoyevski|2|SedeB
+LIB0095|Memorias del subsuelo|Fiódor Dostoyevski|13|SedeA
+LIB0096|Pobres gentes|Fiódor Dostoyevski|0|SedeB
+LIB0097|Noches blancas|Fiódor Dostoyevski|8|SedeA
+LIB0098|El doble|Fiódor Dostoyevski|9|SedeB
+LIB0099|Humillados y ofendidos|Fiódor Dostoyevski|0|SedeA
+LIB0100|El eterno marido|Fiódor Dostoyevski|6|SedeB
+LIB0101|La muerte de Iván Ilich|León Tolstói|3|SedeA
+LIB0102|Resurrección|León Tolstói|9|SedeB
+LIB0103|Los cosacos|León Tolstói|4|SedeA
+LIB0104|La sonata a Kreutzer|León Tolstói|2|SedeB
+LIB0105|Hadyi Murad|León Tolstói|7|SedeA
+LIB0106|Infancia|León Tolstói|4|SedeB
+LIB0107|Adolescencia|León Tolstói|7|SedeA
+LIB0108|Juventud|León Tolstói|9|SedeB
+LIB0109|Sebastopol|León Tolstói|0|SedeA
+LIB0110|El diablo|León Tolstói|6|SedeB
+LIB0111|Retrato del artista adolescente|James Joyce|5|SedeA
+LIB0112|Dublineses|James Joyce|12|SedeB
+LIB0113|Finnegans Wake|James Joyce|3|SedeA
+LIB0114|Exiliados|James Joyce|0|SedeB
+LIB0115|Música de cámara|James Joyce|5|SedeA
+LIB0116|Pomes Penyeach|James Joyce|2|SedeB
+LIB0117|Stephen Hero|James Joyce|3|SedeA
+LIB0118|Giacomo Joyce|James Joyce|4|SedeB
+LIB0119|The Cat and the Devil|James Joyce|6|SedeA
+LIB0120|A Portrait of the Artist|James Joyce|5|SedeB
+LIB0121|Por el camino de Swann|Marcel Proust|7|SedeA
+LIB0122|A la sombra de las muchachas en flor|Marcel Proust|6|SedeB
+LIB0123|El mundo de Guermantes|Marcel Proust|4|SedeA
+LIB0124|Sodoma y Gomorra|Marcel Proust|5|SedeB
+LIB0125|La prisionera|Marcel Proust|3|SedeA
+LIB0126|La fugitiva|Marcel Proust|4|SedeB
+LIB0127|El tiempo recobrado|Marcel Proust|8|SedeA
+LIB0128|Los placeres y los días|Marcel Proust|5|SedeB
+LIB0129|Jean Santeuil|Marcel Proust|3|SedeA
+LIB0130|Contra Sainte-Beuve|Marcel Proust|4|SedeB
+LIB0131|La educación sentimental|Gustave Flaubert|6|SedeA
+LIB0132|Madame Bovary|Gustave Flaubert|9|SedeB
+LIB0133|Salambó|Gustave Flaubert|5|SedeA
+LIB0134|Bouvard y Pécuchet|Gustave Flaubert|4|SedeB
+LIB0135|Tres cuentos|Gustave Flaubert|7|SedeA
+LIB0136|La tentación de San Antonio|Gustave Flaubert|3|SedeB
+LIB0137|Noviembre|Gustave Flaubert|4|SedeA
+LIB0138|Memorias de un loco|Gustave Flaubert|5|SedeB
+LIB0139|Pasión y virtud|Gustave Flaubert|3|SedeA
+LIB0140|Un corazón sencillo|Gustave Flaubert|8|SedeB
+LIB0141|Rojo y negro|Stendhal|6|SedeA
+LIB0142|La cartuja de Parma|Stendhal|7|SedeB
+LIB0143|Armancia|Stendhal|4|SedeA
+LIB0144|Lucien Leuwen|Stendhal|3|SedeB
+LIB0145|Lamiel|Stendhal|5|SedeA
+LIB0146|Del amor|Stendhal|6|SedeB
+LIB0147|Vida de Henry Brulard|Stendhal|4|SedeA
+LIB0148|Recuerdos de egotismo|Stendhal|3|SedeB
+LIB0149|Roma, Nápoles y Florencia|Stendhal|5|SedeA
+LIB0150|Paseos por Roma|Stendhal|7|SedeB
+LIB0151|Papá Goriot|Honoré de Balzac|8|SedeA
+LIB0152|Eugenia Grandet|Honoré de Balzac|6|SedeB
+LIB0153|La prima Bette|Honoré de Balzac|5|SedeA
+LIB0154|El primo Pons|Honoré de Balzac|4|SedeB
+LIB0155|La piel de zapa|Honoré de Balzac|7|SedeA
+LIB0156|César Birotteau|Honoré de Balzac|3|SedeB
+LIB0157|Las ilusiones perdidas|Honoré de Balzac|9|SedeA
+LIB0158|Esplendores y miserias de las cortesanas|Honoré de Balzac|6|SedeB
+LIB0159|La duquesa de Langeais|Honoré de Balzac|5|SedeA
+LIB0160|El lirio en el valle|Honoré de Balzac|4|SedeB
+LIB0161|El proceso|Franz Kafka|10|SedeA
+LIB0162|El castillo|Franz Kafka|9|SedeB
+LIB0163|América|Franz Kafka|6|SedeA
+LIB0164|La condena|Franz Kafka|7|SedeB
+LIB0165|En la colonia penitenciaria|Franz Kafka|8|SedeA
+LIB0166|Un médico rural|Franz Kafka|5|SedeB
+LIB0167|Un artista del hambre|Franz Kafka|4|SedeA
+LIB0168|La muralla china|Franz Kafka|6|SedeB
+LIB0169|Carta al padre|Franz Kafka|9|SedeA
+LIB0170|Aforismos de Zürau|Franz Kafka|5|SedeB
+LIB0171|El lobo estepario|Hermann Hesse|7|SedeA
+LIB0172|Siddhartha|Hermann Hesse|10|SedeB
+LIB0173|Demian|Hermann Hesse|8|SedeA
+LIB0174|El juego de los abalorios|Hermann Hesse|6|SedeB
+LIB0175|Narciso y Goldmundo|Hermann Hesse|5|SedeA
+LIB0176|Bajo las ruedas|Hermann Hesse|7|SedeB
+LIB0177|Peter Camenzind|Hermann Hesse|4|SedeA
+LIB0178|Rosshalde|Hermann Hesse|3|SedeB
+LIB0179|Knulp|Hermann Hesse|6|SedeA
+LIB0180|El último verano de Klingsor|Hermann Hesse|5|SedeB
+LIB0181|La montaña mágica|Thomas Mann|8|SedeA
+LIB0182|Los Buddenbrook|Thomas Mann|7|SedeB
+LIB0183|La muerte en Venecia|Thomas Mann|9|SedeA
+LIB0184|Doctor Faustus|Thomas Mann|6|SedeB
+LIB0185|Mario y el mago|Thomas Mann|5|SedeA
+LIB0186|Tonio Kröger|Thomas Mann|4|SedeB
+LIB0187|José y sus hermanos|Thomas Mann|3|SedeA
+LIB0188|Alteza Real|Thomas Mann|7|SedeB
+LIB0189|Confesiones del estafador Felix Krull|Thomas Mann|6|SedeA
+LIB0190|La ley|Thomas Mann|5|SedeB
+LIB0191|Berlin Alexanderplatz|Alfred Döblin|4|SedeA
+LIB0192|Los tres saltos de Wang-lun|Alfred Döblin|3|SedeB
+LIB0193|Wallenstein|Alfred Döblin|5|SedeA
+LIB0194|Hamlet|Alfred Döblin|4|SedeB
+LIB0195|Noviembre 1918|Alfred Döblin|6|SedeA
+LIB0196|Amazonas|Alfred Döblin|3|SedeB
+LIB0197|Manas|Alfred Döblin|4|SedeA
+LIB0198|Viaje babilónico|Alfred Döblin|5|SedeB
+LIB0199|Pardon wird nicht gegeben|Alfred Döblin|3|SedeA
+LIB0200|Das Land ohne Tod|Alfred Döblin|4|SedeB
+LIB0201|El tambor de hojalata|Günter Grass|8|SedeA
+LIB0202|El gato y el ratón|Günter Grass|6|SedeB
+LIB0203|Años de perro|Günter Grass|5|SedeA
+LIB0204|El rodaballo|Günter Grass|7|SedeB
+LIB0205|La ratesa|Günter Grass|4|SedeA
+LIB0206|Mi siglo|Günter Grass|6|SedeB
+LIB0207|A paso de cangrejo|Günter Grass|5|SedeA
+LIB0208|Pelando la cebolla|Günter Grass|3|SedeB
+LIB0209|La caja de los deseos|Günter Grass|4|SedeA
+LIB0210|Los plebeyos ensayan la rebelión|Günter Grass|7|SedeB
+LIB0211|El cuaderno gris|Josep Pla|5|SedeA
+LIB0212|Viaje en autobús|Josep Pla|6|SedeB
+LIB0213|El que hem menjat|Josep Pla|4|SedeA
+LIB0214|Notes disperses|Josep Pla|3|SedeB
+LIB0215|Contraban|Josep Pla|7|SedeA
+LIB0216|Cartes de lluny|Josep Pla|5|SedeB
+LIB0217|Madrid|Josep Pla|4|SedeA
+LIB0218|Cadaqués|Josep Pla|8|SedeB
+LIB0219|Costa Brava|Josep Pla|6|SedeA
+LIB0220|Els pagesos|Josep Pla|5|SedeB
+LIB0221|La plaza del Diamante|Mercè Rodoreda|9|SedeA
+LIB0222|La calle de las Camelias|Mercè Rodoreda|7|SedeB
+LIB0223|Aloma|Mercè Rodoreda|5|SedeA
+LIB0224|Espejo roto|Mercè Rodoreda|6|SedeB
+LIB0225|Jardín junto al mar|Mercè Rodoreda|4|SedeA
+LIB0226|Viajes y flores|Mercè Rodoreda|8|SedeB
+LIB0227|La muerte y la primavera|Mercè Rodoreda|5|SedeA
+LIB0228|Quanta, quanta guerra|Mercè Rodoreda|3|SedeB
+LIB0229|Isabel y María|Mercè Rodoreda|4|SedeA
+LIB0230|Un café para dos|Mercè Rodoreda|7|SedeB
+LIB0231|Tiempo de silencio|Luis Martín-Santos|6|SedeA
+LIB0232|Tiempo de destrucción|Luis Martín-Santos|5|SedeB
+LIB0233|Apólogos|Luis Martín-Santos|3|SedeA
+LIB0234|Dilthey, Jaspers y la comprensión del enfermo mental|Luis Martín-Santos|4|SedeB
+LIB0235|Libertad, temporalidad y transferencia|Luis Martín-Santos|2|SedeA
+LIB0236|El análisis existencial|Luis Martín-Santos|3|SedeB
+LIB0237|Taula de colors|Luis Martín-Santos|4|SedeA
+LIB0238|El porvenir de España|Luis Martín-Santos|5|SedeB
+LIB0239|Barbarie y reflexión|Luis Martín-Santos|3|SedeA
+LIB0240|El hombre como ser dual|Luis Martín-Santos|4|SedeB
+LIB0241|La verdad sobre el caso Savolta|Eduardo Mendoza|8|SedeA
+LIB0242|El misterio de la cripta embrujada|Eduardo Mendoza|7|SedeB
+LIB0243|La ciudad de los prodigios|Eduardo Mendoza|9|SedeA
+LIB0244|Sin noticias de Gurb|Eduardo Mendoza|10|SedeB
+LIB0245|El año del diluvio|Eduardo Mendoza|5|SedeA
+LIB0246|Una comedia ligera|Eduardo Mendoza|6|SedeB
+LIB0247|La aventura del tocador de señoras|Eduardo Mendoza|8|SedeA
+LIB0248|El laberinto de las aceitunas|Eduardo Mendoza|7|SedeB
+LIB0249|Mauricio o las elecciones primarias|Eduardo Mendoza|4|SedeA
+LIB0250|Riña de gatos|Eduardo Mendoza|5|SedeB
+LIB0251|Nada|Carmen Laforet|9|SedeA
+LIB0252|La isla y los demonios|Carmen Laforet|6|SedeB
+LIB0253|La mujer nueva|Carmen Laforet|5|SedeA
+LIB0254|La insolación|Carmen Laforet|7|SedeB
+LIB0255|Paralelo 35|Carmen Laforet|4|SedeA
+LIB0256|La niña|Carmen Laforet|8|SedeB
+LIB0257|El piano|Carmen Laforet|5|SedeA
+LIB0258|La llamada|Carmen Laforet|6|SedeB
+LIB0259|Al volver la esquina|Carmen Laforet|3|SedeA
+LIB0260|Novelas|Carmen Laforet|4|SedeB
+LIB0261|La colmena|Camilo José Cela|10|SedeA
+LIB0262|La familia de Pascual Duarte|Camilo José Cela|9|SedeB
+LIB0263|Viaje a la Alcarria|Camilo José Cela|7|SedeA
+LIB0264|San Camilo, 1936|Camilo José Cela|6|SedeB
+LIB0265|Oficio de tinieblas 5|Camilo José Cela|5|SedeA
+LIB0266|Mazurca para dos muertos|Camilo José Cela|8|SedeB
+LIB0267|Cristo versus Arizona|Camilo José Cela|4|SedeA
+LIB0268|La cruz de San Andrés|Camilo José Cela|5|SedeB
+LIB0269|Madera de boj|Camilo José Cela|3|SedeA
+LIB0270|Mrs. Caldwell habla con su hijo|Camilo José Cela|6|SedeB
+LIB0271|La verdad sobre el caso Savolta|Eduardo Mendoza|7|SedeA
+LIB0272|Cinco horas con Mario|Miguel Delibes|8|SedeB
+LIB0273|Los santos inocentes|Miguel Delibes|9|SedeA
+LIB0274|El camino|Miguel Delibes|10|SedeB
+LIB0275|El hereje|Miguel Delibes|6|SedeA
+LIB0276|Las ratas|Miguel Delibes|7|SedeB
+LIB0277|El príncipe destronado|Miguel Delibes|5|SedeA
+LIB0278|La sombra del ciprés es alargada|Miguel Delibes|4|SedeB
+LIB0279|Señora de rojo sobre fondo gris|Miguel Delibes|8|SedeA
+LIB0280|El disputado voto del señor Cayo|Miguel Delibes|6|SedeB
+LIB0281|La Regenta|Leopoldo Alas Clarín|11|SedeA
+LIB0282|Su único hijo|Leopoldo Alas Clarín|7|SedeB
+LIB0283|Doña Berta|Leopoldo Alas Clarín|5|SedeA
+LIB0284|Cuentos morales|Leopoldo Alas Clarín|6|SedeB
+LIB0285|Pipá|Leopoldo Alas Clarín|4|SedeA
+LIB0286|El señor|Leopoldo Alas Clarín|3|SedeB
+LIB0287|Superchería|Leopoldo Alas Clarín|5|SedeA
+LIB0288|La mosca sabia|Leopoldo Alas Clarín|7|SedeB
+LIB0289|El dúo de la tos|Leopoldo Alas Clarín|4|SedeA
+LIB0290|¡Adiós, Cordera!|Leopoldo Alas Clarín|8|SedeB
+LIB0291|Fortunata y Jacinta|Benito Pérez Galdós|12|SedeA
+LIB0292|Episodios Nacionales|Benito Pérez Galdós|10|SedeB
+LIB0293|Misericordia|Benito Pérez Galdós|8|SedeA
+LIB0294|Marianela|Benito Pérez Galdós|9|SedeB
+LIB0295|Doña Perfecta|Benito Pérez Galdós|7|SedeA
+LIB0296|Tormento|Benito Pérez Galdós|6|SedeB
+LIB0297|La de Bringas|Benito Pérez Galdós|5|SedeA
+LIB0298|Nazarín|Benito Pérez Galdós|4|SedeB
+LIB0299|Tristana|Benito Pérez Galdós|8|SedeA
+LIB0300|El amigo Manso|Benito Pérez Galdós|6|SedeB
+LIB0301|La desheredada|Benito Pérez Galdós|7|SedeA
+LIB0302|Miau|Benito Pérez Galdós|5|SedeB
+LIB0303|El doctor Centeno|Benito Pérez Galdós|4|SedeA
+LIB0304|Torquemada en la hoguera|Benito Pérez Galdós|6|SedeB
+LIB0305|Angel Guerra|Benito Pérez Galdós|3|SedeA
+LIB0306|La fontana de oro|Benito Pérez Galdós|8|SedeB
+LIB0307|Gloria|Benito Pérez Galdós|5|SedeA
+LIB0308|La familia de León Roch|Benito Pérez Galdós|4|SedeB
+LIB0309|El abuelo|Benito Pérez Galdós|7|SedeA
+LIB0310|Halma|Benito Pérez Galdós|6|SedeB
+LIB0311|La sombra|Benito Pérez Galdós|3|SedeA
+LIB0312|El audaz|Benito Pérez Galdós|5|SedeB
+LIB0313|La corte de Carlos IV|Benito Pérez Galdós|4|SedeA
+LIB0314|Trafalgar|Benito Pérez Galdós|9|SedeB
+LIB0315|El 19 de marzo y el 2 de mayo|Benito Pérez Galdós|6|SedeA
+LIB0316|Bailén|Benito Pérez Galdós|7|SedeB
+LIB0317|Napoleón en Chamartín|Benito Pérez Galdós|5|SedeA
+LIB0318|Zaragoza|Benito Pérez Galdós|8|SedeB
+LIB0319|Gerona|Benito Pérez Galdós|4|SedeA
+LIB0320|Cádiz|Benito Pérez Galdós|6|SedeB
+LIB0321|Juan Martín el Empecinado|Benito Pérez Galdós|5|SedeA
+LIB0322|La batalla de los Arapiles|Benito Pérez Galdós|7|SedeB
+LIB0323|El equipaje del rey José|Benito Pérez Galdós|3|SedeA
+LIB0324|Memorias de un cortesano de 1815|Benito Pérez Galdós|4|SedeB
+LIB0325|La segunda casaca|Benito Pérez Galdós|6|SedeA
+LIB0326|El grande Oriente|Benito Pérez Galdós|5|SedeB
+LIB0327|7 de julio|Benito Pérez Galdós|3|SedeA
+LIB0328|Los cien mil hijos de San Luis|Benito Pérez Galdós|8|SedeB
+LIB0329|El terror de 1824|Benito Pérez Galdós|5|SedeA
+LIB0330|Un voluntario realista|Benito Pérez Galdós|4|SedeB
+LIB0331|Los Apostólicos|Benito Pérez Galdós|6|SedeA
+LIB0332|Un faccioso más y algunos frailes menos|Benito Pérez Galdós|7|SedeB
+LIB0333|Zumalacárregui|Benito Pérez Galdós|5|SedeA
+LIB0334|Mendizábal|Benito Pérez Galdós|4|SedeB
+LIB0335|De Oñate a La Granja|Benito Pérez Galdós|3|SedeA
+LIB0336|Luchana|Benito Pérez Galdós|6|SedeB
+LIB0337|La campaña del Maestrazgo|Benito Pérez Galdós|5|SedeA
+LIB0338|La estafeta romántica|Benito Pérez Galdós|8|SedeB
+LIB0339|Vergara|Benito Pérez Galdós|4|SedeA
+LIB0340|Montes de Oca|Benito Pérez Galdós|7|SedeB
+LIB0341|Los Ayacuchos|Benito Pérez Galdós|5|SedeA
+LIB0342|Bodas reales|Benito Pérez Galdós|6|SedeB
+LIB0343|Las tormentas del 48|Benito Pérez Galdós|4|SedeA
+LIB0344|Narváez|Benito Pérez Galdós|3|SedeB
+LIB0345|Los duendes de la camarilla|Benito Pérez Galdós|5|SedeA
+LIB0346|La revolución de julio|Benito Pérez Galdós|8|SedeB
+LIB0347|O'Donnell|Benito Pérez Galdós|6|SedeA
+LIB0348|Aita Tettauen|Benito Pérez Galdós|4|SedeB
+LIB0349|Carlos VI en La Rápita|Benito Pérez Galdós|5|SedeA
+LIB0350|La vuelta al mundo en la Numancia|Benito Pérez Galdós|7|SedeB
+LIB0351|Prim|Benito Pérez Galdós|9|SedeA
+LIB0352|La de los tristes destinos|Benito Pérez Galdós|6|SedeB
+LIB0353|España sin rey|Benito Pérez Galdós|4|SedeA
+LIB0354|España trágica|Benito Pérez Galdós|5|SedeB
+LIB0355|Amadeo I|Benito Pérez Galdós|3|SedeA
+LIB0356|La Primera República|Benito Pérez Galdós|8|SedeB
+LIB0357|De Cartago a Sagunto|Benito Pérez Galdós|5|SedeA
+LIB0358|Cánovas|Benito Pérez Galdós|7|SedeB
+LIB0359|El libro de las ilusiones|Paul Auster|6|SedeA
+LIB0360|La trilogía de Nueva York|Paul Auster|10|SedeB
+LIB0361|El palacio de la luna|Paul Auster|5|SedeA
+LIB0362|Leviatán|Paul Auster|4|SedeB
+LIB0363|Mr. Vértigo|Paul Auster|7|SedeA
+LIB0364|Tombuctú|Paul Auster|8|SedeB
+LIB0365|La música del azar|Paul Auster|6|SedeA
+LIB0366|El cuaderno rojo|Paul Auster|5|SedeB
+LIB0367|La noche del oráculo|Paul Auster|4|SedeA
+LIB0368|Brooklyn Follies|Paul Auster|9|SedeB
+LIB0369|La invención de la soledad|Paul Auster|7|SedeA
+LIB0370|A salto de mata|Paul Auster|6|SedeB
+LIB0371|Sunset Park|Paul Auster|5|SedeA
+LIB0372|Diario de invierno|Paul Auster|4|SedeB
+LIB0373|4 3 2 1|Paul Auster|8|SedeA
+LIB0374|Burning Boy|Paul Auster|3|SedeB
+LIB0375|El país de las últimas cosas|Paul Auster|6|SedeA
+LIB0376|Hombre en la oscuridad|Paul Auster|5|SedeB
+LIB0377|Invisible|Paul Auster|7|SedeA
+LIB0378|Viajes por el Scriptorium|Paul Auster|4|SedeB
+LIB0379|Esperando a Godot|Samuel Beckett|9|SedeA
+LIB0380|Molloy|Samuel Beckett|6|SedeB
+LIB0381|Malone muere|Samuel Beckett|5|SedeA
+LIB0382|El innombrable|Samuel Beckett|7|SedeB
+LIB0383|Final de partida|Samuel Beckett|8|SedeA
+LIB0384|Murphy|Samuel Beckett|4|SedeB
+LIB0385|Watt|Samuel Beckett|3|SedeA
+LIB0386|Mercier y Camier|Samuel Beckett|6|SedeB
+LIB0387|Cómo es|Samuel Beckett|5|SedeA
+LIB0388|La última cinta|Samuel Beckett|7|SedeB
+LIB0389|Días felices|Samuel Beckett|8|SedeA
+LIB0390|No yo|Samuel Beckett|4|SedeB
+LIB0391|Pasos|Samuel Beckett|5|SedeA
+LIB0392|Compañía|Samuel Beckett|6|SedeB
+LIB0393|Mal visto mal dicho|Samuel Beckett|3|SedeA
+LIB0394|Rumbo a peor|Samuel Beckett|4|SedeB
+LIB0395|Nohow On|Samuel Beckett|7|SedeA
+LIB0396|Todos los que caen|Samuel Beckett|5|SedeB
+LIB0397|Eleutheria|Samuel Beckett|3|SedeA
+LIB0398|Pavesas|Samuel Beckett|8|SedeB
+LIB0399|El círculo rojo|W.G. Sebald|6|SedeA
+LIB0400|Los anillos de Saturno|W.G. Sebald|9|SedeB
+LIB0401|Austerlitz|W.G. Sebald|10|SedeA
+LIB0402|Vértigo|W.G. Sebald|7|SedeB
+LIB0403|Los emigrados|W.G. Sebald|8|SedeA
+LIB0404|Sobre la historia natural de la destrucción|W.G. Sebald|5|SedeB
+LIB0405|Campo Santo|W.G. Sebald|4|SedeA
+LIB0406|Tras las huellas|W.G. Sebald|6|SedeB
+LIB0407|Un lugar en el campo|W.G. Sebald|3|SedeA
+LIB0408|Momentos vividos|W.G. Sebald|5|SedeB
+LIB0409|El paseante solitario|W.G. Sebald|7|SedeA
+LIB0410|Leyendo a Proust|W.G. Sebald|4|SedeB
+LIB0411|Kafka en la orilla|Haruki Murakami|11|SedeA
+LIB0412|1Q84|Haruki Murakami|12|SedeB
+LIB0413|Tokio blues|Haruki Murakami|10|SedeA
+LIB0414|Crónica del pájaro que da cuerda al mundo|Haruki Murakami|9|SedeB
+LIB0415|Baila, baila, baila|Haruki Murakami|8|SedeA
+LIB0416|Al sur de la frontera, al oeste del Sol|Haruki Murakami|7|SedeB
+LIB0417|Sputnik, mi amor|Haruki Murakami|6|SedeA
+LIB0418|After Dark|Haruki Murakami|5|SedeB
+LIB0419|Los años de peregrinación del chico sin color|Haruki Murakami|8|SedeA
+LIB0420|De qué hablo cuando hablo de correr|Haruki Murakami|9|SedeB
+LIB0421|Sauce ciego, mujer dormida|Haruki Murakami|5|SedeA
+LIB0422|El elefante desaparece|Haruki Murakami|6|SedeB
+LIB0423|Después del terremoto|Haruki Murakami|7|SedeA
+LIB0424|El fin del mundo y un despiadado país de las maravillas|Haruki Murakami|8|SedeB
+LIB0425|La caza del carnero salvaje|Haruki Murakami|4|SedeA
+LIB0426|Pinball 1973|Haruki Murakami|3|SedeB
+LIB0427|Escucha la canción del viento|Haruki Murakami|5|SedeA
+LIB0428|Underground|Haruki Murakami|6|SedeB
+LIB0429|De qué hablo cuando hablo de escribir|Haruki Murakami|7|SedeA
+LIB0430|Profesión novelista|Haruki Murakami|4|SedeB
+LIB0431|La muerte del comendador|Haruki Murakami|10|SedeA
+LIB0432|Hombres sin mujeres|Haruki Murakami|8|SedeB
+LIB0433|Primera persona del singular|Haruki Murakami|6|SedeA
+LIB0434|La ciudad y sus muros inciertas|Haruki Murakami|5|SedeB
+LIB0435|El guardián en el bosque|Haruki Murakami|7|SedeA
+LIB0436|Música clásica para todos|Haruki Murakami|4|SedeB
+LIB0437|El invierno de Frankie Machine|Don Winslow|8|SedeA
+LIB0438|Salvajes|Don Winslow|9|SedeB
+LIB0439|El poder del perro|Don Winslow|10|SedeA
+LIB0440|El cártel|Don Winslow|11|SedeB
+LIB0441|La frontera|Don Winslow|12|SedeA
+LIB0442|Satori|Don Winslow|6|SedeB
+LIB0443|Londres Underground|Don Winslow|5|SedeA
+LIB0444|California Fire and Life|Don Winslow|7|SedeB
+LIB0445|The Dawn Patrol|Don Winslow|8|SedeA
+LIB0446|The Gentlemen's Hour|Don Winslow|6|SedeB
+LIB0447|The Kings of Cool|Don Winslow|5|SedeA
+LIB0448|Missing|Don Winslow|4|SedeB
+LIB0449|Broken|Don Winslow|7|SedeA
+LIB0450|Corruption|Don Winslow|6|SedeB
+LIB0451|City on Fire|Don Winslow|9|SedeA
+LIB0452|City in Ruins|Don Winslow|8|SedeB
+LIB0453|A Cool Breeze on the Underground|Don Winslow|5|SedeA
+LIB0454|The Trail to Buddha's Mirror|Don Winslow|4|SedeB
+LIB0455|Way Down on the High Lonely|Don Winslow|6|SedeA
+LIB0456|While Drowning in the Desert|Don Winslow|5|SedeB
+LIB0457|A Long Walk Up the Water Slide|Don Winslow|3|SedeA
+LIB0458|Isle of Joy|Don Winslow|7|SedeB
+LIB0459|The Winter of Frankie Machine|Don Winslow|8|SedeA
+LIB0460|Savages|Don Winslow|9|SedeB
+LIB0461|El nombre del viento|Patrick Rothfuss|13|SedeA
+LIB0462|El temor de un hombre sabio|Patrick Rothfuss|12|SedeB
+LIB0463|La música del silencio|Patrick Rothfuss|8|SedeA
+LIB0464|The Lightning Tree|Patrick Rothfuss|5|SedeB
+LIB0465|How Old Holly Came To Be|Patrick Rothfuss|4|SedeA
+LIB0466|The Adventures of the Princess and Mr. Whiffle|Patrick Rothfuss|6|SedeB
+LIB0467|The Narrow Road Between Desires|Patrick Rothfuss|7|SedeA
+LIB0468|Rogues|Patrick Rothfuss|5|SedeB
+LIB0469|Unfettered|Patrick Rothfuss|4|SedeA
+LIB0470|Unfettered II|Patrick Rothfuss|6|SedeB
+LIB0471|Juego de tronos|George R.R. Martin|15|SedeA
+LIB0472|Choque de reyes|George R.R. Martin|14|SedeB
+LIB0473|Tormenta de espadas|George R.R. Martin|13|SedeA
+LIB0474|Festín de cuervos|George R.R. Martin|12|SedeB
+LIB0475|Danza de dragones|George R.R. Martin|11|SedeA
+LIB0476|Fuego y sangre|George R.R. Martin|10|SedeB
+LIB0477|El caballero errante|George R.R. Martin|9|SedeA
+LIB0478|La espada leal|George R.R. Martin|8|SedeB
+LIB0479|El caballero misterioso|George R.R. Martin|7|SedeA
+LIB0480|El mundo de hielo y fuego|George R.R. Martin|6|SedeB
+LIB0481|Luz moribunda|George R.R. Martin|5|SedeA
+LIB0482|Los viajes de Tuf|George R.R. Martin|4|SedeB
+LIB0483|Sueño del Fevre|George R.R. Martin|8|SedeA
+LIB0484|Windhaven|George R.R. Martin|6|SedeB
+LIB0485|Nightflyers|George R.R. Martin|7|SedeA
+LIB0486|Hunter's Run|George R.R. Martin|5|SedeB
+LIB0487|The Armageddon Rag|George R.R. Martin|4|SedeA
+LIB0488|Sandkings|George R.R. Martin|9|SedeB
+LIB0489|A Song for Lya|George R.R. Martin|5|SedeA
+LIB0490|Songs of Stars and Shadows|George R.R. Martin|6|SedeB
+LIB0491|Songs the Dead Men Sing|George R.R. Martin|4|SedeA
+LIB0492|Portraits of His Children|George R.R. Martin|3|SedeB
+LIB0493|Quartet|George R.R. Martin|5|SedeA
+LIB0494|GRRM: A RRetrospective|George R.R. Martin|7|SedeB
+LIB0495|Dreamsongs|George R.R. Martin|8|SedeA
+LIB0496|Starlady and Fast-Friend|George R.R. Martin|4|SedeB
+LIB0497|Wild Cards I|George R.R. Martin|10|SedeA
+LIB0498|Wild Cards II: Aces High|George R.R. Martin|9|SedeB
+LIB0499|Wild Cards III: Jokers Wild|George R.R. Martin|8|SedeA
+LIB0500|Wild Cards IV: Aces Abroad|George R.R. Martin|7|SedeB
+LIB0501|El silencio de los corderos|Thomas Harris|10|SedeA
+LIB0502|Hannibal|Thomas Harris|9|SedeB
+LIB0503|El dragón rojo|Thomas Harris|8|SedeA
+LIB0504|Hannibal el origen del mal|Thomas Harris|7|SedeB
+LIB0505|Cari Mora|Thomas Harris|5|SedeA
+LIB0506|Black Sunday|Thomas Harris|6|SedeB
+LIB0507|The Silence of the Lambs Special Edition|Thomas Harris|4|SedeA
+LIB0508|Hannibal Rising|Thomas Harris|8|SedeB
+LIB0509|Red Dragon Special Edition|Thomas Harris|7|SedeA
+LIB0510|Hannibal Special Edition|Thomas Harris|6|SedeB
+LIB0511|El resplandor|Stephen King|12|SedeA
+LIB0512|It|Stephen King|14|SedeB
+LIB0513|Carrie|Stephen King|9|SedeA
+LIB0514|El misterio de Salem's Lot|Stephen King|8|SedeB
+LIB0515|La zona muerta|Stephen King|7|SedeA
+LIB0516|Cujo|Stephen King|10|SedeB
+LIB0517|Christine|Stephen King|6|SedeA
+LIB0518|Cementerio de animales|Stephen King|11|SedeB
+LIB0519|Misery|Stephen King|9|SedeA
+LIB0520|La torre oscura I|Stephen King|8|SedeB
+LIB0521|La torre oscura II|Stephen King|7|SedeA
+LIB0522|La torre oscura III|Stephen King|6|SedeB
+LIB0523|La torre oscura IV|Stephen King|10|SedeA
+LIB0524|La torre oscura V|Stephen King|9|SedeB
+LIB0525|La torre oscura VI|Stephen King|8|SedeA
+LIB0526|La torre oscura VII|Stephen King|11|SedeB
+LIB0527|Doctor Sueño|Stephen King|10|SedeA
+LIB0528|22/11/63|Stephen King|12|SedeB
+LIB0529|Mr. Mercedes|Stephen King|8|SedeA
+LIB0530|Quien pierde paga|Stephen King|7|SedeB
+LIB0531|Fin de guardia|Stephen King|6|SedeA
+LIB0532|El Instituto|Stephen King|9|SedeB
+LIB0533|Holly|Stephen King|5|SedeA
+LIB0534|Fairy Tale|Stephen King|10|SedeB
+LIB0535|La larga marcha|Stephen King|4|SedeA
+LIB0536|Rabia|Stephen King|5|SedeB
+LIB0537|El fugitivo|Stephen King|8|SedeA
+LIB0538|Reguladores|Stephen King|6|SedeB
+LIB0539|La niebla|Stephen King|9|SedeA
+LIB0540|Apocalipsis|Stephen King|13|SedeB
+LIB0541|Ojos de fuego|Stephen King|7|SedeA
+LIB0542|El talismán|Stephen King|8|SedeB
+LIB0543|Los Tommyknockers|Stephen King|6|SedeA
+LIB0544|Dolores Claiborne|Stephen King|7|SedeB
+LIB0545|Gerald's Game|Stephen King|5|SedeA
+LIB0546|Insomnia|Stephen King|9|SedeB
+LIB0547|Rose Madder|Stephen King|4|SedeA
+LIB0548|La tormenta del siglo|Stephen King|6|SedeB
+LIB0549|La chica que amaba a Tom Gordon|Stephen King|8|SedeA
+LIB0550|Saco de huesos|Stephen King|10|SedeB
+LIB0551|Duma Key|Stephen King|7|SedeA
+LIB0552|El juego de Gerald|Stephen King|5|SedeB
+LIB0553|Joyland|Stephen King|8|SedeA
+LIB0554|Revival|Stephen King|6|SedeB
+LIB0555|El visitante|Stephen King|11|SedeA
+LIB0556|La sangre manda|Stephen King|4|SedeB
+LIB0557|Billy Summers|Stephen King|9|SedeA
+LIB0558|Later|Stephen King|5|SedeB
+LIB0559|The Stand: Complete and Uncut|Stephen King|12|SedeA
+LIB0560|Different Seasons|Stephen King|10|SedeB
+LIB0561|Skeleton Crew|Stephen King|8|SedeA
+LIB0562|Four Past Midnight|Stephen King|7|SedeB
+LIB0563|Nightmares & Dreamscapes|Stephen King|9|SedeA
+LIB0564|Hearts in Atlantis|Stephen King|6|SedeB
+LIB0565|Everything's Eventual|Stephen King|5|SedeA
+LIB0566|Just After Sunset|Stephen King|8|SedeB
+LIB0567|The Bazaar of Bad Dreams|Stephen King|7|SedeA
+LIB0568|If It Bleeds|Stephen King|10|SedeB
+LIB0569|Night Shift|Stephen King|9|SedeA
+LIB0570|On Writing|Stephen King|11|SedeB
+LIB0571|Danse Macabre|Stephen King|6|SedeA
+LIB0572|Faithful|Stephen King|4|SedeB
+LIB0573|The Colorado Kid|Stephen King|5|SedeA
+LIB0574|Blaze|Stephen King|7|SedeB
+LIB0575|Roadwork|Stephen King|6|SedeA
+LIB0576|Thinner|Stephen King|8|SedeB
+LIB0577|Cycle of the Werewolf|Stephen King|4|SedeA
+LIB0578|The Eyes of the Dragon|Stephen King|9|SedeB
+LIB0579|From a Buick 8|Stephen King|5|SedeA
+LIB0580|Cell|Stephen King|7|SedeB
+LIB0581|Lisey's Story|Stephen King|8|SedeA
+LIB0582|Under the Dome|Stephen King|12|SedeB
+LIB0583|11/22/63|Stephen King|11|SedeA
+LIB0584|The Wind Through the Keyhole|Stephen King|6|SedeB
+LIB0585|End of Watch|Stephen King|7|SedeA
+LIB0586|Sleeping Beauties|Stephen King|9|SedeB
+LIB0587|The Outsider|Stephen King|10|SedeA
+LIB0588|Elevation|Stephen King|4|SedeB
+LIB0589|Gwendy's Button Box|Stephen King|5|SedeA
+LIB0590|Gwendy's Magic Feather|Stephen King|6|SedeB
+LIB0591|Gwendy's Final Task|Stephen King|4|SedeA
+LIB0592|You Like It Darker|Stephen King|8|SedeB
+LIB0593|Never Flinch|Stephen King|3|SedeA
+LIB0594|Holly Gibney|Stephen King|7|SedeB
+LIB0595|El paciente inglés|Michael Ondaatje|8|SedeA
+LIB0596|En el pellejo de un león|Michael Ondaatje|6|SedeB
+LIB0597|El fantasma de Anil|Michael Ondaatje|7|SedeA
+LIB0598|Divisadero|Michael Ondaatje|5|SedeB
+LIB0599|El gato de Buddy|Michael Ondaatje|4|SedeA
+LIB0600|Warlight|Michael Ondaatje|9|SedeB
+LIB0601|Coming Through Slaughter|Michael Ondaatje|3|SedeA
+LIB0602|Running in the Family|Michael Ondaatje|6|SedeB
+LIB0603|The Collected Works of Billy the Kid|Michael Ondaatje|7|SedeA
+LIB0604|Secular Love|Michael Ondaatje|5|SedeB
+LIB0605|The Cinnamon Peeler|Michael Ondaatje|4|SedeA
+LIB0606|Handwriting|Michael Ondaatje|8|SedeB
+LIB0607|The Conversations|Michael Ondaatje|6|SedeA
+LIB0608|The Story|Michael Ondaatje|5|SedeB
+LIB0609|There's a Trick with a Knife|Michael Ondaatje|3|SedeA
+LIB0610|Rat Jelly|Michael Ondaatje|4|SedeB
+LIB0611|Beloved|Toni Morrison|10|SedeA
+LIB0612|Ojos azules|Toni Morrison|9|SedeB
+LIB0613|Sula|Toni Morrison|7|SedeA
+LIB0614|La canción de Salomón|Toni Morrison|8|SedeB
+LIB0615|Tar Baby|Toni Morrison|5|SedeA
+LIB0616|Jazz|Toni Morrison|6|SedeB
+LIB0617|Paradise|Toni Morrison|7|SedeA
+LIB0618|Love|Toni Morrison|4|SedeB
+LIB0619|Una bendición|Toni Morrison|8|SedeA
+LIB0620|Volver|Toni Morrison|9|SedeB
+LIB0621|La noche de los niños|Toni Morrison|5|SedeA
+LIB0622|God Help the Child|Toni Morrison|6|SedeB
+LIB0623|Playing in the Dark|Toni Morrison|3|SedeA
+LIB0624|The Origin of Others|Toni Morrison|7|SedeB
+LIB0625|The Source of Self-Regard|Toni Morrison|4|SedeA
+LIB0626|Mouth Full of Blood|Toni Morrison|8|SedeB
+LIB0627|Remember|Toni Morrison|5|SedeA
+LIB0628|The Big Box|Toni Morrison|6|SedeB
+LIB0629|The Book of Mean People|Toni Morrison|3|SedeA
+LIB0630|Who's Got Game|Toni Morrison|4|SedeB
+LIB0631|Little Cloud and Lady Wind|Toni Morrison|7|SedeA
+LIB0632|The Ant or the Grasshopper|Toni Morrison|5|SedeB
+LIB0633|The Lion or the Mouse|Toni Morrison|4|SedeA
+LIB0634|Poppy or the Snake|Toni Morrison|6|SedeB
+LIB0635|Peeny Butter Fudge|Toni Morrison|8|SedeA
+LIB0636|Please, Louise|Toni Morrison|5|SedeB
+LIB0637|The Tortoise or the Hare|Toni Morrison|3|SedeA
+LIB0638|Goodnight Desdemona|Toni Morrison|4|SedeB
+LIB0639|The Meanest Thing to Say|Toni Morrison|6|SedeA
+LIB0640|Dreaming Emmett|Toni Morrison|7|SedeB
+LIB0641|El cuento de la criada|Margaret Atwood|11|SedeA
+LIB0642|Los testamentos|Margaret Atwood|10|SedeB
+LIB0643|Alias Grace|Margaret Atwood|8|SedeA
+LIB0644|Oryx y Crake|Margaret Atwood|7|SedeB
+LIB0645|El año del diluvio|Margaret Atwood|6|SedeA
+LIB0646|MaddAddam|Margaret Atwood|9|SedeB
+LIB0647|La mujer comestible|Margaret Atwood|5|SedeA
+LIB0648|Resurgir|Margaret Atwood|4|SedeB
+LIB0649|El asesino ciego|Margaret Atwood|10|SedeA
+LIB0650|Penélope y las doce criadas|Margaret Atwood|6|SedeB
+LIB0651|La novia ladrona|Margaret Atwood|7|SedeA
+LIB0652|Ojo de gato|Margaret Atwood|8|SedeB
+LIB0653|La semilla de la bruja|Margaret Atwood|5|SedeA
+LIB0654|Wilderness Tips|Margaret Atwood|4|SedeB
+LIB0655|La puerta|Margaret Atwood|6|SedeA
+LIB0656|Stone Mattress|Margaret Atwood|7|SedeB
+LIB0657|Moral Disorder|Margaret Atwood|3|SedeA
+LIB0658|Good Bones|Margaret Atwood|5|SedeB
+LIB0659|Dancing Girls|Margaret Atwood|4|SedeA
+LIB0660|Murder in the Dark|Margaret Atwood|8|SedeB
+LIB0661|Bluebeard's Egg|Margaret Atwood|6|SedeA
+LIB0662|The Tent|Margaret Atwood|5|SedeB
+LIB0663|Dearly|Margaret Atwood|7|SedeA
+LIB0664|The Circle Game|Margaret Atwood|4|SedeB
+LIB0665|Los detectives salvajes|Roberto Bolaño|9|SedeA
+LIB0666|2666|Roberto Bolaño|11|SedeB
+LIB0667|Estrella distante|Roberto Bolaño|8|SedeA
+LIB0668|Nocturno de Chile|Roberto Bolaño|7|SedeB
+LIB0669|Amuleto|Roberto Bolaño|6|SedeA
+LIB0670|La literatura nazi en América|Roberto Bolaño|5|SedeB
+LIB0671|Llamadas telefónicas|Roberto Bolaño|8|SedeA
+LIB0672|Putas asesinas|Roberto Bolaño|7|SedeB
+LIB0673|El gaucho insufrible|Roberto Bolaño|6|SedeA
+LIB0674|El Tercer Reich|Roberto Bolaño|5|SedeB
+LIB0675|Los sinsabores del verdadero policía|Roberto Bolaño|9|SedeA
+LIB0676|El espíritu de la ciencia ficción|Roberto Bolaño|4|SedeB
+LIB0677|Consejos de un discípulo de Morrison a un fanático de Joyce|Roberto Bolaño|6|SedeA
+LIB0678|Entre paréntesis|Roberto Bolaño|7|SedeB
+LIB0679|El secreto del mal|Roberto Bolaño|5|SedeA
+LIB0680|Tres|Roberto Bolaño|8|SedeB
+LIB0681|La Universidad Desconocida|Roberto Bolaño|4|SedeA
+LIB0682|Los perros románticos|Roberto Bolaño|6|SedeB
+LIB0683|Amberes|Roberto Bolaño|5|SedeA
+LIB0684|Monsieur Pain|Roberto Bolaño|7|SedeB
+LIB0685|Una novelita lumpen|Roberto Bolaño|8|SedeA
+LIB0686|El último salvaje|Roberto Bolaño|3|SedeB
+LIB0687|La pista de hielo|Roberto Bolaño|6|SedeA
+LIB0688|Sepulcros de vaqueros|Roberto Bolaño|5|SedeB
+LIB0689|Agua viva|Clarice Lispector|7|SedeA
+LIB0690|La hora de la estrella|Clarice Lispector|8|SedeB
+LIB0691|La pasión según G.H.|Clarice Lispector|9|SedeA
+LIB0692|Cerca del corazón salvaje|Clarice Lispector|6|SedeB
+LIB0693|La manzana en la oscuridad|Clarice Lispector|5|SedeA
+LIB0694|Un soplo de vida|Clarice Lispector|7|SedeB
+LIB0695|La araña|Clarice Lispector|4|SedeA
+LIB0696|Lazos de familia|Clarice Lispector|8|SedeB
+LIB0697|Felicidad clandestina|Clarice Lispector|6|SedeA
+LIB0698|La legión extranjera|Clarice Lispector|5|SedeB
+LIB0699|Donde estuviste de noche|Clarice Lispector|7|SedeA
+LIB0700|La bella y la bestia|Clarice Lispector|9|SedeB
+LIB0701|Para no olvidar|Clarice Lispector|4|SedeA
+LIB0702|Revelación de un mundo|Clarice Lispector|6|SedeB
+LIB0703|La ciudad sitiada|Clarice Lispector|5|SedeA
+LIB0704|Aprendiendo a vivir|Clarice Lispector|8|SedeB
+LIB0705|Cuentos reunidos|Clarice Lispector|10|SedeA
+LIB0706|De cuerpo entero|Clarice Lispector|3|SedeB
+LIB0707|Descubrimientos|Clarice Lispector|5|SedeA
+LIB0708|Otros escritos|Clarice Lispector|6|SedeB
+LIB0709|El corazón de las tinieblas|Joseph Conrad|9|SedeA
+LIB0710|Lord Jim|Joseph Conrad|8|SedeB
+LIB0711|Nostromo|Joseph Conrad|7|SedeA
+LIB0712|El agente secreto|Joseph Conrad|6|SedeB
+LIB0713|Bajo la mirada de Occidente|Joseph Conrad|5|SedeA
+LIB0714|La línea de sombra|Joseph Conrad|8|SedeB
+LIB0715|Victoria|Joseph Conrad|4|SedeA
+LIB0716|El negro del Narcissus|Joseph Conrad|7|SedeB
+LIB0717|Tifón|Joseph Conrad|6|SedeA
+LIB0718|La locura de Almayer|Joseph Conrad|5|SedeB
+LIB0719|Un paria de las islas|Joseph Conrad|4|SedeA
+LIB0720|El duelo|Joseph Conrad|8|SedeB
+LIB0721|Freya de las Siete Islas|Joseph Conrad|3|SedeA
+LIB0722|Youth|Joseph Conrad|7|SedeB
+LIB0723|El socio|Joseph Conrad|6|SedeA
+LIB0724|Amy Foster|Joseph Conrad|5|SedeB
+LIB0725|El informador|Joseph Conrad|4|SedeA
+LIB0726|Gaspar Ruiz|Joseph Conrad|8|SedeB
+LIB0727|Il Conde|Joseph Conrad|3|SedeA
+LIB0728|The Warrior's Soul|Joseph Conrad|6|SedeB
+LIB0729|El reino de este mundo|Alejo Carpentier|8|SedeA
+LIB0730|Los pasos perdidos|Alejo Carpentier|9|SedeB
+LIB0731|El siglo de las luces|Alejo Carpentier|10|SedeA
+LIB0732|El recurso del método|Alejo Carpentier|7|SedeB
+LIB0733|Concierto barroco|Alejo Carpentier|6|SedeA
+LIB0734|El arpa y la sombra|Alejo Carpentier|8|SedeB
+LIB0735|La consagración de la primavera|Alejo Carpentier|5|SedeA
+LIB0736|Guerra del tiempo|Alejo Carpentier|7|SedeB
+LIB0737|El acoso|Alejo Carpentier|4|SedeA
+LIB0738|¡Écue-Yamba-Ó!|Alejo Carpentier|6|SedeB
+LIB0739|Viaje a la semilla|Alejo Carpentier|9|SedeA
+LIB0740|Semejante a la noche|Alejo Carpentier|5|SedeB
+LIB0741|Los advertidos|Alejo Carpentier|4|SedeA
+LIB0742|El camino de Santiago|Alejo Carpentier|7|SedeB
+LIB0743|Crónicas|Alejo Carpentier|6|SedeA
+LIB0744|Tientos y diferencias|Alejo Carpentier|8|SedeB
+LIB0745|La música en Cuba|Alejo Carpentier|5|SedeA
+LIB0746|Ese músico que llevo dentro|Alejo Carpentier|3|SedeB
+LIB0747|Razón de ser|Alejo Carpentier|6|SedeA
+LIB0748|Letra y solfa|Alejo Carpentier|7|SedeB
+LIB0749|La novela latinoamericana|Alejo Carpentier|4|SedeA
+LIB0750|Afirmación literaria americanista|Alejo Carpentier|5|SedeB
+LIB0751|El laberinto de la soledad|Octavio Paz|10|SedeA
+LIB0752|Piedra de sol|Octavio Paz|9|SedeB
+LIB0753|El arco y la lira|Octavio Paz|8|SedeA
+LIB0754|Libertad bajo palabra|Octavio Paz|7|SedeB
+LIB0755|Corriente alterna|Octavio Paz|6|SedeA
+LIB0756|Conjunciones y disyunciones|Octavio Paz|8|SedeB
+LIB0757|Posdata|Octavio Paz|5|SedeA
+LIB0758|El mono gramático|Octavio Paz|7|SedeB
+LIB0759|Sor Juana Inés de la Cruz o Las trampas de la fe|Octavio Paz|4|SedeA
+LIB0760|La otra voz|Octavio Paz|9|SedeB
+LIB0761|Vislumbres de la India|Octavio Paz|6|SedeA
+LIB0762|La llama doble|Octavio Paz|8|SedeB
+LIB0763|Árbol adentro|Octavio Paz|5|SedeA
+LIB0764|Pasado en claro|Octavio Paz|7|SedeB
+LIB0765|Blanco|Octavio Paz|4|SedeA
+LIB0766|Salamandra|Octavio Paz|9|SedeB
+LIB0767|Ladera este|Octavio Paz|6|SedeA
+LIB0768|Topoemas|Octavio Paz|8|SedeB
+LIB0769|Renga|Octavio Paz|3|SedeA
+LIB0770|Los hijos del limo|Octavio Paz|5|SedeB
+LIB0771|El ogro filantrópico|Octavio Paz|7|SedeA
+LIB0772|In/mediaciones|Octavio Paz|6|SedeB
+LIB0773|Tiempo nublado|Octavio Paz|4|SedeA
+LIB0774|Hombres en su siglo|Octavio Paz|8|SedeB
+LIB0775|Sombras de obras|Octavio Paz|5|SedeA
+LIB0776|Al paso|Octavio Paz|7|SedeB
+LIB0777|Primeras letras|Octavio Paz|6|SedeA
+LIB0778|Puertas al campo|Octavio Paz|4|SedeB
+LIB0779|Las peras del olmo|Octavio Paz|9|SedeA
+LIB0780|Cuadrivio|Octavio Paz|5|SedeB
+LIB0781|Polvos de aquellos lodos|Octavio Paz|6|SedeA
+LIB0782|La búsqueda del comienzo|Octavio Paz|3|SedeB
+LIB0783|Apariencia desnuda|Octavio Paz|7|SedeA
+LIB0784|Marcel Duchamp o El castillo de la pureza|Octavio Paz|8|SedeB
+LIB0785|Xavier Villaurrutia en persona y en obra|Octavio Paz|4|SedeA
+LIB0786|Los signos en rotación|Octavio Paz|5|SedeB
+LIB0787|Claude Lévi-Strauss o el nuevo festín de Esopo|Octavio Paz|6|SedeA
+LIB0788|Traducción: literatura y literalidad|Octavio Paz|7|SedeB
+LIB0789|Pequeña crónica de grandes días|Octavio Paz|3|SedeA
+LIB0790|Poesía en movimiento|Octavio Paz|8|SedeB
+LIB0791|Historias de cronopios y de famas|Julio Cortázar|10|SedeA
+LIB0792|Final del juego|Julio Cortázar|9|SedeB
+LIB0793|Las armas secretas|Julio Cortázar|8|SedeA
+LIB0794|Todos los fuegos el fuego|Julio Cortázar|7|SedeB
+LIB0795|Octaedro|Julio Cortázar|6|SedeA
+LIB0796|Queremos tanto a Glenda|Julio Cortázar|9|SedeB
+LIB0797|Deshoras|Julio Cortázar|5|SedeA
+LIB0798|62 Modelo para armar|Julio Cortázar|8|SedeB
+LIB0799|El libro de Manuel|Julio Cortázar|7|SedeA
+LIB0800|Los premios|Julio Cortázar|6|SedeB
+LIB0801|Bestiario|Julio Cortázar|9|SedeA
+LIB0802|Los relatos|Julio Cortázar|8|SedeB
+LIB0803|Un tal Lucas|Julio Cortázar|10|SedeA
+LIB0804|La vuelta al día en ochenta mundos|Julio Cortázar|7|SedeB
+LIB0805|Último round|Julio Cortázar|6|SedeA
+LIB0806|Fantomas contra los vampiros multinacionales|Julio Cortázar|5|SedeB
+LIB0807|Nicaragua tan violentamente dulce|Julio Cortázar|4|SedeA
+LIB0808|Los autonautas de la cosmopista|Julio Cortázar|8|SedeB
+LIB0809|Argentina: años de alambradas culturales|Julio Cortázar|6|SedeA
+LIB0810|Territorios|Julio Cortázar|5|SedeB
+LIB0811|Imagen de John Keats|Julio Cortázar|7|SedeA
+LIB0812|Teoría del túnel|Julio Cortázar|4|SedeB
+LIB0813|Obra crítica|Julio Cortázar|9|SedeA
+LIB0814|Papeles inesperados|Julio Cortázar|8|SedeB
+LIB0815|Clases de literatura|Julio Cortázar|6|SedeA
+LIB0816|Cartas|Julio Cortázar|10|SedeB
+LIB0817|Diario de Andrés Fava|Julio Cortázar|5|SedeA
+LIB0818|Salvo el crepúsculo|Julio Cortázar|7|SedeB
+LIB0819|Divertimento|Julio Cortázar|8|SedeA
+LIB0820|El examen|Julio Cortázar|4|SedeB
+LIB0821|Presencia|Julio Cortázar|6|SedeA
+LIB0822|La otra orilla|Julio Cortázar|3|SedeB
+LIB0823|Adiós Robinson y otras piezas breves|Julio Cortázar|5|SedeA
+LIB0824|Nada a Pehuajó y otras piezas breves|Julio Cortázar|7|SedeB
+LIB0825|Cuentos completos|Julio Cortázar|12|SedeA
+LIB0826|Prosa del observatorio|Julio Cortázar|4|SedeB
+LIB0827|Viaje alrededor de una mesa|Julio Cortázar|8|SedeA
+LIB0828|Libro de sueños|Julio Cortázar|5|SedeB
+LIB0829|El llano en llamas|Juan Rulfo|10|SedeA
+LIB0830|Autobiografía armada|Juan Rulfo|6|SedeB
+LIB0831|Los cuadernos de Juan Rulfo|Juan Rulfo|7|SedeA
+LIB0832|Cartas a Clara|Juan Rulfo|5|SedeB
+LIB0833|Toda la obra|Juan Rulfo|11|SedeA
+LIB0834|Inframundo|Juan Rulfo|4|SedeB
+LIB0835|La fórmula secreta|Juan Rulfo|8|SedeA
+LIB0836|Aire de las colinas|Juan Rulfo|6|SedeB
+LIB0837|El gallo de oro y otros textos|Juan Rulfo|9|SedeA
+LIB0838|Noticias sobre Juan Rulfo|Juan Rulfo|3|SedeB
+LIB0839|Las tierras áridas|Juan Rulfo|7|SedeA
+LIB0840|Castillo de Teayo|Juan Rulfo|5|SedeB
+LIB0841|Conversaciones con Juan Rulfo|Juan Rulfo|8|SedeA
+LIB0842|Documentos sobre Juan Rulfo|Juan Rulfo|4|SedeB
+LIB0843|Letras e imágenes|Juan Rulfo|6|SedeA
+LIB0844|Textos sobre Juan Rulfo|Juan Rulfo|5|SedeB
+LIB0845|El universo de Juan Rulfo|Juan Rulfo|9|SedeA
+LIB0846|Homenaje a Juan Rulfo|Juan Rulfo|7|SedeB
+LIB0847|Juan Rulfo: otras miradas|Juan Rulfo|4|SedeA
+LIB0848|Rulfo: la percepción alucinada|Juan Rulfo|6|SedeB
+LIB0849|Arráncame la vida|Ángeles Mastretta|10|SedeA
+LIB0850|Mal de amores|Ángeles Mastretta|9|SedeB
+LIB0851|Ninguna eternidad como la mía|Ángeles Mastretta|8|SedeA
+LIB0852|El mundo iluminado|Ángeles Mastretta|7|SedeB
+LIB0853|Maridos|Ángeles Mastretta|6|SedeA
+LIB0854|Mujeres de ojos grandes|Ángeles Mastretta|11|SedeB
+LIB0855|Puerto libre|Ángeles Mastretta|8|SedeA
+LIB0856|El cielo de los leones|Ángeles Mastretta|5|SedeB
+LIB0857|La emoción de las cosas|Ángeles Mastretta|7|SedeA
+LIB0858|Todo México|Ángeles Mastretta|6|SedeB
+LIB0859|El viento de las horas|Ángeles Mastretta|4|SedeA
+LIB0860|La ternura es más fuerte|Ángeles Mastretta|8|SedeB
+LIB0861|El universo de las emociones|Ángeles Mastretta|5|SedeA
+LIB0862|Historias de mujeres|Ángeles Mastretta|9|SedeB
+LIB0863|La vida es un regalo|Ángeles Mastretta|7|SedeA
+LIB0864|Todos mis cuentos|Ángeles Mastretta|6|SedeB
+LIB0865|Encuentros|Ángeles Mastretta|10|SedeA
+LIB0866|Crónicas|Ángeles Mastretta|4|SedeB
+LIB0867|Artículos|Ángeles Mastretta|8|SedeA
+LIB0868|Ensayos|Ángeles Mastretta|5|SedeB
+LIB0869|Pensamientos|Ángeles Mastretta|6|SedeA
+LIB0870|La gran fiesta|Ángeles Mastretta|7|SedeB
+LIB0871|Como agua para chocolate|Laura Esquivel|12|SedeA
+LIB0872|La ley del amor|Laura Esquivel|8|SedeB
+LIB0873|Tan veloz como el deseo|Laura Esquivel|9|SedeA
+LIB0874|Malinche|Laura Esquivel|10|SedeB
+LIB0875|A Lupita le gustaba planchar|Laura Esquivel|6|SedeA
+LIB0876|El libro de las emociones|Laura Esquivel|7|SedeB
+LIB0877|Íntimas suculencias|Laura Esquivel|5|SedeA
+LIB0878|Estrellita marinera|Laura Esquivel|4|SedeB
+LIB0879|Entre dos fuegos|Laura Esquivel|8|SedeA
+LIB0880|Mi negro pasado|Laura Esquivel|6|SedeB
+LIB0881|El diario de Tita|Laura Esquivel|9|SedeA
+LIB0882|A Chepita le dolía|Laura Esquivel|5|SedeB
+LIB0883|Qué se puede hacer|Laura Esquivel|7|SedeA
+LIB0884|La cocina del corazón|Laura Esquivel|4|SedeB
+LIB0885|Sabores y dolores|Laura Esquivel|8|SedeA
+LIB0886|Recetas de amor|Laura Esquivel|10|SedeB
+LIB0887|El libro del té|Laura Esquivel|3|SedeA
+LIB0888|Pensamientos de amor|Laura Esquivel|6|SedeB
+LIB0889|Cuentos de Navidad|Laura Esquivel|5|SedeA
+LIB0890|El amor y la cocina|Laura Esquivel|7|SedeB
+LIB0891|La región más transparente|Carlos Fuentes|11|SedeA
+LIB0892|La muerte de Artemio Cruz|Carlos Fuentes|10|SedeB
+LIB0893|Aura|Carlos Fuentes|12|SedeA
+LIB0894|Terra Nostra|Carlos Fuentes|8|SedeB
+LIB0895|Gringo viejo|Carlos Fuentes|9|SedeA
+LIB0896|Cristóbal Nonato|Carlos Fuentes|7|SedeB
+LIB0897|La campaña|Carlos Fuentes|6|SedeA
+LIB0898|Diana o la cazadora solitaria|Carlos Fuentes|8|SedeB
+LIB0899|Los años con Laura Díaz|Carlos Fuentes|10|SedeA
+LIB0900|Instinto de Inez|Carlos Fuentes|5|SedeB
+LIB0901|La silla del águila|Carlos Fuentes|7|SedeA
+LIB0902|Todas las familias felices|Carlos Fuentes|9|SedeB
+LIB0903|La voluntad y la fortuna|Carlos Fuentes|6|SedeA
+LIB0904|Adán en Edén|Carlos Fuentes|4|SedeB
+LIB0905|Carolina Grau|Carlos Fuentes|8|SedeA
+LIB0906|Federico en su balcón|Carlos Fuentes|5|SedeB
+LIB0907|Vlad|Carlos Fuentes|10|SedeA
+LIB0908|Inquieta compañía|Carlos Fuentes|7|SedeB
+LIB0909|La frontera de cristal|Carlos Fuentes|9|SedeA
+LIB0910|El naranjo|Carlos Fuentes|8|SedeB
+LIB0911|Agua quemada|Carlos Fuentes|6|SedeA
+LIB0912|Constancia|Carlos Fuentes|7|SedeB
+LIB0913|Cantar de ciegos|Carlos Fuentes|5|SedeA
+LIB0914|Los días enmascarados|Carlos Fuentes|4|SedeB
+LIB0915|Ceremonias del alba|Carlos Fuentes|9|SedeA
+LIB0916|Una familia lejana|Carlos Fuentes|8|SedeB
+LIB0917|Cumpleaños|Carlos Fuentes|6|SedeA
+LIB0918|Zona sagrada|Carlos Fuentes|7|SedeB
+LIB0919|Cambio de piel|Carlos Fuentes|10|SedeA
+LIB0920|Las buenas conciencias|Carlos Fuentes|5|SedeB
+LIB0921|Tiempo mexicano|Carlos Fuentes|8|SedeA
+LIB0922|Cervantes o la crítica de la lectura|Carlos Fuentes|6|SedeB
+LIB0923|La nueva novela hispanoamericana|Carlos Fuentes|9|SedeA
+LIB0924|Valiente mundo nuevo|Carlos Fuentes|7|SedeB
+LIB0925|Geografía de la novela|Carlos Fuentes|4|SedeA
+LIB0926|En esto creo|Carlos Fuentes|10|SedeB
+LIB0927|Contra Bush|Carlos Fuentes|3|SedeA
+LIB0928|El espejo enterrado|Carlos Fuentes|11|SedeB
+LIB0929|Nuevo tiempo mexicano|Carlos Fuentes|5|SedeA
+LIB0930|Por un progreso incluyente|Carlos Fuentes|6|SedeB
+LIB0931|Los 68|Carlos Fuentes|8|SedeA
+LIB0932|Tres discursos para dos aldeas|Carlos Fuentes|4|SedeB
+LIB0933|Personas|Carlos Fuentes|7|SedeA
+LIB0934|Retratos en el tiempo|Carlos Fuentes|9|SedeB
+LIB0935|La gran novela latinoamericana|Carlos Fuentes|12|SedeA
+LIB0936|En el castillo de Barba Azul|George Steiner|8|SedeB
+LIB0937|Después de Babel|George Steiner|10|SedeA
+LIB0938|Presencias reales|George Steiner|7|SedeB
+LIB0939|Lenguaje y silencio|George Steiner|9|SedeA
+LIB0940|La muerte de la tragedia|George Steiner|6|SedeB
+LIB0941|Antígonas|George Steiner|8|SedeA
+LIB0942|Los logócratas|George Steiner|5|SedeB
+LIB0943|Gramáticas de la creación|George Steiner|7|SedeA
+LIB0944|Errata|George Steiner|10|SedeB
+LIB0945|La poesía del pensamiento|George Steiner|6|SedeA
+LIB0946|Lecciones de los maestros|George Steiner|9|SedeB
+LIB0947|La idea de Europa|George Steiner|8|SedeA
+LIB0948|Nostalgia del absoluto|George Steiner|5|SedeB
+LIB0949|La barbarie de la ignorancia|George Steiner|7|SedeA
+LIB0950|Extraterritorial|George Steiner|4|SedeB
+LIB0951|Heidegger|George Steiner|8|SedeA
+LIB0952|Tolstói o Dostoyevski|George Steiner|11|SedeB
+LIB0953|El archivo del Edén|George Steiner|6|SedeA
+LIB0954|Fragmentos|George Steiner|9|SedeB
+LIB0955|En diálogo|George Steiner|7|SedeA
+LIB0956|Los libros que no he escrito|George Steiner|10|SedeB
+LIB0957|Una lectura bien hecha|George Steiner|5|SedeA
+LIB0958|El silencio de los libros|George Steiner|8|SedeB
+LIB0959|Diez razones para la tristeza del pensamiento|George Steiner|4|SedeA
+LIB0960|Mi libro de horas|George Steiner|6|SedeB
+LIB0961|Cien años de soledad (Edición conmemorativa)|Gabriel García Márquez|15|SedeA
+LIB0962|La hojarasca|Gabriel García Márquez|7|SedeB
+LIB0963|El coronel no tiene quien le escriba|Gabriel García Márquez|10|SedeA
+LIB0964|La mala hora|Gabriel García Márquez|8|SedeB
+LIB0965|Los funerales de la Mamá Grande|Gabriel García Márquez|9|SedeA
+LIB0966|El otoño del patriarca|Gabriel García Márquez|6|SedeB
+LIB0967|Relato de un náufrago|Gabriel García Márquez|11|SedeA
+LIB0968|Doce cuentos peregrinos|Gabriel García Márquez|10|SedeB
+LIB0969|Del amor y otros demonios|Gabriel García Márquez|8|SedeA
+LIB0970|Noticia de un secuestro|Gabriel García Márquez|9|SedeB
+LIB0971|Memoria de mis putas tristes|Gabriel García Márquez|7|SedeA
+LIB0972|Vivir para contarla|Gabriel García Márquez|12|SedeB
+LIB0973|Ojos de perro azul|Gabriel García Márquez|6|SedeA
+LIB0974|La increíble y triste historia de la cándida Eréndira|Gabriel García Márquez|10|SedeB
+LIB0975|El general en su laberinto|Gabriel García Márquez|11|SedeA
+LIB0976|Entre cachacos|Gabriel García Márquez|5|SedeB
+LIB0977|Textos costeños|Gabriel García Márquez|8|SedeA
+LIB0978|De Europa y América|Gabriel García Márquez|7|SedeB
+LIB0979|Por la libre|Gabriel García Márquez|6|SedeA
+LIB0980|Notas de prensa|Gabriel García Márquez|9|SedeB
+LIB0981|La aventura de Miguel Littín clandestino en Chile|Gabriel García Márquez|8|SedeA
+LIB0982|El escándalo del siglo|Gabriel García Márquez|10|SedeB
+LIB0983|Yo no vengo a decir un discurso|Gabriel García Márquez|5|SedeA
+LIB0984|El olor de la guayaba|Gabriel García Márquez|7|SedeB
+LIB0985|La bendita manía de contar|Gabriel García Márquez|6|SedeA
+LIB0986|Cómo se cuenta un cuento|Gabriel García Márquez|9|SedeB
+LIB0987|Un ramo de nomeolvides|Gabriel García Márquez|4|SedeA
+LIB0988|La cándida Eréndira|Gabriel García Márquez|8|SedeB
+LIB0989|Un señor muy viejo con unas alas enormes|Gabriel García Márquez|10|SedeA
+LIB0990|El rastro de tu sangre en la nieve|Gabriel García Márquez|6|SedeB
+LIB0991|El avión de la bella durmiente|Gabriel García Márquez|7|SedeA
+LIB0992|Me alquilo para soñar|Gabriel García Márquez|5|SedeB
+LIB0993|El verano feliz de la señora Forbes|Gabriel García Márquez|8|SedeA
+LIB0994|La luz es como el agua|Gabriel García Márquez|9|SedeB
+LIB0995|Blacamán el bueno vendedor de milagros|Gabriel García Márquez|6|SedeA
+LIB0996|El ahogado más hermoso del mundo|Gabriel García Márquez|11|SedeB
+LIB0997|Un día de estos|Gabriel García Márquez|7|SedeA
+LIB0998|La siesta del martes|Gabriel García Márquez|10|SedeB
+LIB0999|La prodigiosa tarde de Baltazar|Gabriel García Márquez|8|SedeA
+LIB1000|En este pueblo no hay ladrones|Gabriel García Márquez|9|SedeB
