@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 """
-Actor_Prestamo_Multihilo.py (VERSIÓN MEJORADA)
+Actor_Prestamo_Multihilo.py
 Actor con POOL DE HILOS para procesar préstamos en PARALELO.
 """
 
@@ -18,7 +17,7 @@ context = zmq.Context()
 
 # Socket SUB
 sub_socket = context.socket(zmq.SUB)
-sub_socket.connect("tcp://localhost:5556")
+sub_socket.connect("tcp://10.43.102.40:5556")
 sub_socket.setsockopt_string(zmq.SUBSCRIBE, "prestamo")
 logging.info("Suscrito al tópico 'prestamo' (MULTIHILO)")
 

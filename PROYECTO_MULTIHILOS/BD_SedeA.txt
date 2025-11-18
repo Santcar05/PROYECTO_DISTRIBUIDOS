@@ -1,303 +1,303 @@
-LIB0001|Cien años de soledad|Gabriel García Márquez|0|SedeA
-LIB0002|Don Quijote de la Mancha|Miguel de Cervantes|22|SedeB
-LIB0003|El amor en los tiempos del cólera|Gabriel García Márquez|3|SedeA
-LIB0004|1984|George Orwell|0|SedeB
-LIB0005|Crónica de una muerte anunciada|Gabriel García Márquez|21|SedeA
-LIB0006|La sombra del viento|Carlos Ruiz Zafón|0|SedeB
-LIB0007|El principito|Antoine de Saint-Exupéry|15|SedeA
-LIB0008|Orgullo y prejuicio|Jane Austen|18|SedeB
-LIB0009|Harry Potter y la piedra filosofal|J.K. Rowling|0|SedeA
-LIB0010|El código Da Vinci|Dan Brown|9|SedeB
-LIB0011|Los juegos del hambre|Suzanne Collins|0|SedeA
-LIB0012|Cincuenta sombras de Grey|E.L. James|16|SedeB
-LIB0013|El hobbit|J.R.R. Tolkien|11|SedeA
-LIB0014|El señor de los anillos|J.R.R. Tolkien|0|SedeB
-LIB0015|Crepúsculo|Stephenie Meyer|19|SedeA
-LIB0016|La casa de los espíritus|Isabel Allende|0|SedeB
-LIB0017|El alquimista|Paulo Coelho|13|SedeA
-LIB0018|La ciudad y los perros|Mario Vargas Llosa|18|SedeB
-LIB0019|Rayuela|Julio Cortázar|0|SedeA
-LIB0020|Pedro Páramo|Juan Rulfo|8|SedeB
-LIB0021|Ficciones|Jorge Luis Borges|0|SedeA
-LIB0022|El túnel|Ernesto Sábato|21|SedeB
-LIB0023|Los detectives salvajes|Roberto Bolaño|0|SedeA
-LIB0024|La tregua|Mario Benedetti|6|SedeB
-LIB0025|El perfume|Patrick Süskind|23|SedeA
-LIB0026|La metamorfosis|Franz Kafka|0|SedeB
-LIB0027|El extranjero|Albert Camus|8|SedeA
-LIB0028|Crimen y castigo|Fiódor Dostoyevski|19|SedeB
-LIB0029|Los miserables|Victor Hugo|0|SedeA
-LIB0030|Guerra y paz|León Tolstói|4|SedeB
-LIB0031|Anna Karenina|León Tolstói|0|SedeA
-LIB0032|Ulises|James Joyce|16|SedeB
-LIB0033|En busca del tiempo perdido|Marcel Proust|3|SedeA
-LIB0034|La Odisea|Homero|0|SedeB
-LIB0035|La Ilíada|Homero|25|SedeA
-LIB0036|La divina comedia|Dante Alighieri|0|SedeB
-LIB0037|Hamlet|William Shakespeare|9|SedeA
-LIB0038|Macbeth|William Shakespeare|22|SedeB
-LIB0039|Romeo y Julieta|William Shakespeare|0|SedeA
-LIB0040|Otelo|William Shakespeare|6|SedeB
-LIB0041|El guardián entre el centeno|J.D. Salinger|0|SedeA
-LIB0042|Matar un ruiseñor|Harper Lee|22|SedeB
-LIB0043|Fahrenheit 451|Ray Bradbury|9|SedeA
-LIB0044|Un mundo feliz|Aldous Huxley|0|SedeB
-LIB0045|El gran Gatsby|F. Scott Fitzgerald|25|SedeA
-LIB0046|Lo que el viento se llevó|Margaret Mitchell|0|SedeB
-LIB0047|El retrato de Dorian Gray|Oscar Wilde|6|SedeA
-LIB0048|Drácula|Bram Stoker|22|SedeB
-LIB0049|Frankenstein|Mary Shelley|0|SedeA
-LIB0050|Jane Eyre|Charlotte Brontë|5|SedeB
-LIB0051|Cumbres borrascosas|Emily Brontë|0|SedeA
-LIB0052|Las aventuras de Tom Sawyer|Mark Twain|23|SedeB
-LIB0053|Las aventuras de Huckleberry Finn|Mark Twain|8|SedeA
-LIB0054|Moby Dick|Herman Melville|0|SedeB
-LIB0055|El viejo y el mar|Ernest Hemingway|24|SedeA
-LIB0056|Por quién doblan las campanas|Ernest Hemingway|0|SedeB
-LIB0057|El sol también se levanta|Ernest Hemingway|5|SedeA
-LIB0058|Las uvas de la ira|John Steinbeck|21|SedeB
-LIB0059|De ratones y hombres|John Steinbeck|0|SedeA
-LIB0060|Al este del Edén|John Steinbeck|4|SedeB
-LIB0061|El ruido y la furia|William Faulkner|0|SedeA
-LIB0062|Mientras agonizo|William Faulkner|19|SedeB
-LIB0063|Lolita|Vladimir Nabokov|6|SedeA
-LIB0064|La naranja mecánica|Anthony Burgess|0|SedeB
-LIB0065|El nombre de la rosa|Umberto Eco|21|SedeA
-LIB0066|El péndulo de Foucault|Umberto Eco|0|SedeB
-LIB0067|La insoportable levedad del ser|Milan Kundera|8|SedeA
-LIB0068|El libro de la risa y el olvido|Milan Kundera|19|SedeB
-LIB0069|Ensayo sobre la ceguera|José Saramago|0|SedeA
-LIB0070|Todos los nombres|José Saramago|7|SedeB
-LIB0071|El evangelio según Jesucristo|José Saramago|0|SedeA
-LIB0072|La caverna|José Saramago|18|SedeB
-LIB0073|Memorial del convento|José Saramago|5|SedeA
-LIB0074|El año de la muerte de Ricardo Reis|José Saramago|0|SedeB
-LIB0075|Levantado del suelo|José Saramago|17|SedeA
-LIB0076|Las intermitencias de la muerte|José Saramago|0|SedeB
-LIB0077|La balsa de piedra|José Saramago|4|SedeA
-LIB0078|El hombre duplicado|José Saramago|19|SedeB
-LIB0079|Caín|José Saramago|0|SedeA
-LIB0080|Claraboya|José Saramago|3|SedeB
-LIB0081|La peste|Albert Camus|0|SedeA
-LIB0082|El mito de Sísifo|Albert Camus|20|SedeB
-LIB0083|La caída|Albert Camus|5|SedeA
-LIB0084|El hombre rebelde|Albert Camus|0|SedeB
-LIB0085|Bodas|Albert Camus|17|SedeA
-LIB0086|El verano|Albert Camus|0|SedeB
-LIB0087|Calígula|Albert Camus|5|SedeA
-LIB0088|Los justos|Albert Camus|18|SedeB
-LIB0089|Estado de sitio|Albert Camus|0|SedeA
-LIB0090|El malentendido|Albert Camus|6|SedeB
-LIB0091|Los hermanos Karamázov|Fiódor Dostoyevski|0|SedeA
-LIB0092|El idiota|Fiódor Dostoyevski|21|SedeB
-LIB0093|Demonios|Fiódor Dostoyevski|5|SedeA
-LIB0094|El jugador|Fiódor Dostoyevski|0|SedeB
-LIB0095|Memorias del subsuelo|Fiódor Dostoyevski|23|SedeA
-LIB0096|Pobres gentes|Fiódor Dostoyevski|0|SedeB
-LIB0097|Noches blancas|Fiódor Dostoyevski|8|SedeA
-LIB0098|El doble|Fiódor Dostoyevski|19|SedeB
-LIB0099|Humillados y ofendidos|Fiódor Dostoyevski|0|SedeA
-LIB0100|El eterno marido|Fiódor Dostoyevski|6|SedeB
-LIB0101|La muerte de Iván Ilich|León Tolstói|0|SedeA
-LIB0102|Resurrección|León Tolstói|19|SedeB
-LIB0103|Los cosacos|León Tolstói|4|SedeA
-LIB0104|La sonata a Kreutzer|León Tolstói|0|SedeB
-LIB0105|Hadyi Murad|León Tolstói|17|SedeA
-LIB0106|Infancia|León Tolstói|0|SedeB
-LIB0107|Adolescencia|León Tolstói|7|SedeA
-LIB0108|Juventud|León Tolstói|19|SedeB
-LIB0109|Sebastopol|León Tolstói|0|SedeA
-LIB0110|El diablo|León Tolstói|6|SedeB
-LIB0111|Retrato del artista adolescente|James Joyce|0|SedeA
-LIB0112|Dublineses|James Joyce|22|SedeB
-LIB0113|Finnegans Wake|James Joyce|3|SedeA
-LIB0114|Exiliados|James Joyce|0|SedeB
-LIB0115|Música de cámara|James Joyce|5|SedeA
-LIB0116|Pomes Penyeach|James Joyce|2|SedeB
-LIB0117|Stephen Hero|James Joyce|3|SedeA
-LIB0118|Giacomo Joyce|James Joyce|4|SedeB
-LIB0119|The Cat and the Devil|James Joyce|6|SedeA
-LIB0120|A Portrait of the Artist|James Joyce|5|SedeB
-LIB0121|Por el camino de Swann|Marcel Proust|7|SedeA
-LIB0122|A la sombra de las muchachas en flor|Marcel Proust|6|SedeB
-LIB0123|El mundo de Guermantes|Marcel Proust|4|SedeA
-LIB0124|Sodoma y Gomorra|Marcel Proust|5|SedeB
-LIB0125|La prisionera|Marcel Proust|3|SedeA
-LIB0126|La fugitiva|Marcel Proust|4|SedeB
-LIB0127|El tiempo recobrado|Marcel Proust|8|SedeA
-LIB0128|Los placeres y los días|Marcel Proust|5|SedeB
-LIB0129|Jean Santeuil|Marcel Proust|3|SedeA
-LIB0130|Contra Sainte-Beuve|Marcel Proust|4|SedeB
-LIB0131|La educación sentimental|Gustave Flaubert|6|SedeA
-LIB0132|Madame Bovary|Gustave Flaubert|9|SedeB
-LIB0133|Salambó|Gustave Flaubert|5|SedeA
-LIB0134|Bouvard y Pécuchet|Gustave Flaubert|4|SedeB
-LIB0135|Tres cuentos|Gustave Flaubert|7|SedeA
-LIB0136|La tentación de San Antonio|Gustave Flaubert|3|SedeB
-LIB0137|Noviembre|Gustave Flaubert|4|SedeA
-LIB0138|Memorias de un loco|Gustave Flaubert|5|SedeB
-LIB0139|Pasión y virtud|Gustave Flaubert|3|SedeA
-LIB0140|Un corazón sencillo|Gustave Flaubert|8|SedeB
-LIB0141|Rojo y negro|Stendhal|6|SedeA
-LIB0142|La cartuja de Parma|Stendhal|7|SedeB
-LIB0143|Armancia|Stendhal|4|SedeA
-LIB0144|Lucien Leuwen|Stendhal|3|SedeB
-LIB0145|Lamiel|Stendhal|5|SedeA
-LIB0146|Del amor|Stendhal|6|SedeB
-LIB0147|Vida de Henry Brulard|Stendhal|4|SedeA
-LIB0148|Recuerdos de egotismo|Stendhal|3|SedeB
-LIB0149|Roma, Nápoles y Florencia|Stendhal|5|SedeA
-LIB0150|Paseos por Roma|Stendhal|7|SedeB
-LIB0151|Papá Goriot|Honoré de Balzac|8|SedeA
-LIB0152|Eugenia Grandet|Honoré de Balzac|6|SedeB
-LIB0153|La prima Bette|Honoré de Balzac|5|SedeA
-LIB0154|El primo Pons|Honoré de Balzac|4|SedeB
-LIB0155|La piel de zapa|Honoré de Balzac|7|SedeA
-LIB0156|César Birotteau|Honoré de Balzac|3|SedeB
-LIB0157|Las ilusiones perdidas|Honoré de Balzac|9|SedeA
-LIB0158|Esplendores y miserias de las cortesanas|Honoré de Balzac|6|SedeB
-LIB0159|La duquesa de Langeais|Honoré de Balzac|5|SedeA
-LIB0160|El lirio en el valle|Honoré de Balzac|4|SedeB
-LIB0161|El proceso|Franz Kafka|10|SedeA
-LIB0162|El castillo|Franz Kafka|9|SedeB
-LIB0163|América|Franz Kafka|6|SedeA
-LIB0164|La condena|Franz Kafka|7|SedeB
-LIB0165|En la colonia penitenciaria|Franz Kafka|8|SedeA
-LIB0166|Un médico rural|Franz Kafka|5|SedeB
-LIB0167|Un artista del hambre|Franz Kafka|4|SedeA
-LIB0168|La muralla china|Franz Kafka|6|SedeB
-LIB0169|Carta al padre|Franz Kafka|9|SedeA
-LIB0170|Aforismos de Zürau|Franz Kafka|5|SedeB
-LIB0171|El lobo estepario|Hermann Hesse|7|SedeA
-LIB0172|Siddhartha|Hermann Hesse|10|SedeB
-LIB0173|Demian|Hermann Hesse|8|SedeA
-LIB0174|El juego de los abalorios|Hermann Hesse|6|SedeB
-LIB0175|Narciso y Goldmundo|Hermann Hesse|5|SedeA
-LIB0176|Bajo las ruedas|Hermann Hesse|7|SedeB
-LIB0177|Peter Camenzind|Hermann Hesse|4|SedeA
-LIB0178|Rosshalde|Hermann Hesse|3|SedeB
-LIB0179|Knulp|Hermann Hesse|6|SedeA
-LIB0180|El último verano de Klingsor|Hermann Hesse|5|SedeB
-LIB0181|La montaña mágica|Thomas Mann|8|SedeA
-LIB0182|Los Buddenbrook|Thomas Mann|7|SedeB
-LIB0183|La muerte en Venecia|Thomas Mann|9|SedeA
-LIB0184|Doctor Faustus|Thomas Mann|6|SedeB
-LIB0185|Mario y el mago|Thomas Mann|5|SedeA
-LIB0186|Tonio Kröger|Thomas Mann|4|SedeB
-LIB0187|José y sus hermanos|Thomas Mann|3|SedeA
-LIB0188|Alteza Real|Thomas Mann|7|SedeB
-LIB0189|Confesiones del estafador Felix Krull|Thomas Mann|6|SedeA
-LIB0190|La ley|Thomas Mann|5|SedeB
-LIB0191|Berlin Alexanderplatz|Alfred Döblin|4|SedeA
-LIB0192|Los tres saltos de Wang-lun|Alfred Döblin|3|SedeB
-LIB0193|Wallenstein|Alfred Döblin|5|SedeA
-LIB0194|Hamlet|Alfred Döblin|4|SedeB
-LIB0195|Noviembre 1918|Alfred Döblin|6|SedeA
-LIB0196|Amazonas|Alfred Döblin|3|SedeB
-LIB0197|Manas|Alfred Döblin|4|SedeA
-LIB0198|Viaje babilónico|Alfred Döblin|5|SedeB
-LIB0199|Pardon wird nicht gegeben|Alfred Döblin|3|SedeA
-LIB0200|Das Land ohne Tod|Alfred Döblin|4|SedeB
-LIB0201|El tambor de hojalata|Günter Grass|8|SedeA
-LIB0202|El gato y el ratón|Günter Grass|6|SedeB
-LIB0203|Años de perro|Günter Grass|5|SedeA
-LIB0204|El rodaballo|Günter Grass|7|SedeB
-LIB0205|La ratesa|Günter Grass|4|SedeA
-LIB0206|Mi siglo|Günter Grass|6|SedeB
-LIB0207|A paso de cangrejo|Günter Grass|5|SedeA
-LIB0208|Pelando la cebolla|Günter Grass|3|SedeB
-LIB0209|La caja de los deseos|Günter Grass|4|SedeA
-LIB0210|Los plebeyos ensayan la rebelión|Günter Grass|7|SedeB
-LIB0211|El cuaderno gris|Josep Pla|5|SedeA
-LIB0212|Viaje en autobús|Josep Pla|6|SedeB
-LIB0213|El que hem menjat|Josep Pla|4|SedeA
-LIB0214|Notes disperses|Josep Pla|3|SedeB
-LIB0215|Contraban|Josep Pla|7|SedeA
-LIB0216|Cartes de lluny|Josep Pla|5|SedeB
-LIB0217|Madrid|Josep Pla|4|SedeA
-LIB0218|Cadaqués|Josep Pla|8|SedeB
-LIB0219|Costa Brava|Josep Pla|6|SedeA
-LIB0220|Els pagesos|Josep Pla|5|SedeB
-LIB0221|La plaza del Diamante|Mercè Rodoreda|9|SedeA
-LIB0222|La calle de las Camelias|Mercè Rodoreda|7|SedeB
-LIB0223|Aloma|Mercè Rodoreda|5|SedeA
-LIB0224|Espejo roto|Mercè Rodoreda|6|SedeB
-LIB0225|Jardín junto al mar|Mercè Rodoreda|4|SedeA
-LIB0226|Viajes y flores|Mercè Rodoreda|8|SedeB
-LIB0227|La muerte y la primavera|Mercè Rodoreda|5|SedeA
-LIB0228|Quanta, quanta guerra|Mercè Rodoreda|3|SedeB
-LIB0229|Isabel y María|Mercè Rodoreda|4|SedeA
-LIB0230|Un café para dos|Mercè Rodoreda|7|SedeB
-LIB0231|Tiempo de silencio|Luis Martín-Santos|6|SedeA
-LIB0232|Tiempo de destrucción|Luis Martín-Santos|5|SedeB
-LIB0233|Apólogos|Luis Martín-Santos|3|SedeA
-LIB0234|Dilthey, Jaspers y la comprensión del enfermo mental|Luis Martín-Santos|4|SedeB
-LIB0235|Libertad, temporalidad y transferencia|Luis Martín-Santos|2|SedeA
-LIB0236|El análisis existencial|Luis Martín-Santos|3|SedeB
-LIB0237|Taula de colors|Luis Martín-Santos|4|SedeA
-LIB0238|El porvenir de España|Luis Martín-Santos|5|SedeB
-LIB0239|Barbarie y reflexión|Luis Martín-Santos|3|SedeA
-LIB0240|El hombre como ser dual|Luis Martín-Santos|4|SedeB
-LIB0241|La verdad sobre el caso Savolta|Eduardo Mendoza|8|SedeA
-LIB0242|El misterio de la cripta embrujada|Eduardo Mendoza|7|SedeB
-LIB0243|La ciudad de los prodigios|Eduardo Mendoza|9|SedeA
-LIB0244|Sin noticias de Gurb|Eduardo Mendoza|10|SedeB
-LIB0245|El año del diluvio|Eduardo Mendoza|5|SedeA
-LIB0246|Una comedia ligera|Eduardo Mendoza|6|SedeB
-LIB0247|La aventura del tocador de señoras|Eduardo Mendoza|8|SedeA
-LIB0248|El laberinto de las aceitunas|Eduardo Mendoza|7|SedeB
-LIB0249|Mauricio o las elecciones primarias|Eduardo Mendoza|4|SedeA
-LIB0250|Riña de gatos|Eduardo Mendoza|5|SedeB
-LIB0251|Nada|Carmen Laforet|9|SedeA
-LIB0252|La isla y los demonios|Carmen Laforet|6|SedeB
-LIB0253|La mujer nueva|Carmen Laforet|5|SedeA
-LIB0254|La insolación|Carmen Laforet|7|SedeB
-LIB0255|Paralelo 35|Carmen Laforet|4|SedeA
-LIB0256|La niña|Carmen Laforet|8|SedeB
-LIB0257|El piano|Carmen Laforet|5|SedeA
-LIB0258|La llamada|Carmen Laforet|6|SedeB
-LIB0259|Al volver la esquina|Carmen Laforet|3|SedeA
-LIB0260|Novelas|Carmen Laforet|4|SedeB
-LIB0261|La colmena|Camilo José Cela|10|SedeA
-LIB0262|La familia de Pascual Duarte|Camilo José Cela|9|SedeB
-LIB0263|Viaje a la Alcarria|Camilo José Cela|7|SedeA
-LIB0264|San Camilo, 1936|Camilo José Cela|6|SedeB
-LIB0265|Oficio de tinieblas 5|Camilo José Cela|5|SedeA
-LIB0266|Mazurca para dos muertos|Camilo José Cela|8|SedeB
-LIB0267|Cristo versus Arizona|Camilo José Cela|4|SedeA
-LIB0268|La cruz de San Andrés|Camilo José Cela|5|SedeB
-LIB0269|Madera de boj|Camilo José Cela|3|SedeA
-LIB0270|Mrs. Caldwell habla con su hijo|Camilo José Cela|6|SedeB
-LIB0271|La verdad sobre el caso Savolta|Eduardo Mendoza|7|SedeA
-LIB0272|Cinco horas con Mario|Miguel Delibes|8|SedeB
-LIB0273|Los santos inocentes|Miguel Delibes|9|SedeA
-LIB0274|El camino|Miguel Delibes|10|SedeB
-LIB0275|El hereje|Miguel Delibes|6|SedeA
-LIB0276|Las ratas|Miguel Delibes|7|SedeB
-LIB0277|El príncipe destronado|Miguel Delibes|5|SedeA
-LIB0278|La sombra del ciprés es alargada|Miguel Delibes|4|SedeB
-LIB0279|Señora de rojo sobre fondo gris|Miguel Delibes|8|SedeA
-LIB0280|El disputado voto del señor Cayo|Miguel Delibes|6|SedeB
-LIB0281|La Regenta|Leopoldo Alas Clarín|11|SedeA
-LIB0282|Su único hijo|Leopoldo Alas Clarín|7|SedeB
-LIB0283|Doña Berta|Leopoldo Alas Clarín|5|SedeA
-LIB0284|Cuentos morales|Leopoldo Alas Clarín|6|SedeB
-LIB0285|Pipá|Leopoldo Alas Clarín|4|SedeA
-LIB0286|El señor|Leopoldo Alas Clarín|3|SedeB
-LIB0287|Superchería|Leopoldo Alas Clarín|5|SedeA
-LIB0288|La mosca sabia|Leopoldo Alas Clarín|7|SedeB
-LIB0289|El dúo de la tos|Leopoldo Alas Clarín|4|SedeA
-LIB0290|¡Adiós, Cordera!|Leopoldo Alas Clarín|8|SedeB
-LIB0291|Fortunata y Jacinta|Benito Pérez Galdós|12|SedeA
-LIB0292|Episodios Nacionales|Benito Pérez Galdós|10|SedeB
-LIB0293|Misericordia|Benito Pérez Galdós|8|SedeA
-LIB0294|Marianela|Benito Pérez Galdós|9|SedeB
-LIB0295|Doña Perfecta|Benito Pérez Galdós|7|SedeA
-LIB0296|Tormento|Benito Pérez Galdós|6|SedeB
-LIB0297|La de Bringas|Benito Pérez Galdós|5|SedeA
-LIB0298|Nazarín|Benito Pérez Galdós|4|SedeB
-LIB0299|Tristana|Benito Pérez Galdós|8|SedeA
-LIB0300|El amigo Manso|Benito Pérez Galdós|6|SedeB
+LIB0001|Cien años de soledad|Gabriel García Márquez|48|SedeA
+LIB0002|Don Quijote de la Mancha|Miguel de Cervantes|51|SedeB
+LIB0003|El amor en los tiempos del cólera|Gabriel García Márquez|50|SedeA
+LIB0004|1984|George Orwell|48|SedeB
+LIB0005|Crónica de una muerte anunciada|Gabriel García Márquez|51|SedeA
+LIB0006|La sombra del viento|Carlos Ruiz Zafón|48|SedeB
+LIB0007|El principito|Antoine de Saint-Exupéry|50|SedeA
+LIB0008|Orgullo y prejuicio|Jane Austen|51|SedeB
+LIB0009|Harry Potter y la piedra filosofal|J.K. Rowling|48|SedeA
+LIB0010|El código Da Vinci|Dan Brown|50|SedeB
+LIB0011|Los juegos del hambre|Suzanne Collins|48|SedeA
+LIB0012|Cincuenta sombras de Grey|E.L. James|51|SedeB
+LIB0013|El hobbit|J.R.R. Tolkien|50|SedeA
+LIB0014|El señor de los anillos|J.R.R. Tolkien|48|SedeB
+LIB0015|Crepúsculo|Stephenie Meyer|51|SedeA
+LIB0016|La casa de los espíritus|Isabel Allende|48|SedeB
+LIB0017|El alquimista|Paulo Coelho|50|SedeA
+LIB0018|La ciudad y los perros|Mario Vargas Llosa|51|SedeB
+LIB0019|Rayuela|Julio Cortázar|48|SedeA
+LIB0020|Pedro Páramo|Juan Rulfo|50|SedeB
+LIB0021|Ficciones|Jorge Luis Borges|48|SedeA
+LIB0022|El túnel|Ernesto Sábato|51|SedeB
+LIB0023|Los detectives salvajes|Roberto Bolaño|48|SedeA
+LIB0024|La tregua|Mario Benedetti|50|SedeB
+LIB0025|El perfume|Patrick Süskind|51|SedeA
+LIB0026|La metamorfosis|Franz Kafka|48|SedeB
+LIB0027|El extranjero|Albert Camus|50|SedeA
+LIB0028|Crimen y castigo|Fiódor Dostoyevski|51|SedeB
+LIB0029|Los miserables|Victor Hugo|48|SedeA
+LIB0030|Guerra y paz|León Tolstói|50|SedeB
+LIB0031|Anna Karenina|León Tolstói|48|SedeA
+LIB0032|Ulises|James Joyce|51|SedeB
+LIB0033|En busca del tiempo perdido|Marcel Proust|50|SedeA
+LIB0034|La Odisea|Homero|48|SedeB
+LIB0035|La Ilíada|Homero|51|SedeA
+LIB0036|La divina comedia|Dante Alighieri|48|SedeB
+LIB0037|Hamlet|William Shakespeare|50|SedeA
+LIB0038|Macbeth|William Shakespeare|51|SedeB
+LIB0039|Romeo y Julieta|William Shakespeare|48|SedeA
+LIB0040|Otelo|William Shakespeare|50|SedeB
+LIB0041|El guardián entre el centeno|J.D. Salinger|48|SedeA
+LIB0042|Matar un ruiseñor|Harper Lee|51|SedeB
+LIB0043|Fahrenheit 451|Ray Bradbury|50|SedeA
+LIB0044|Un mundo feliz|Aldous Huxley|48|SedeB
+LIB0045|El gran Gatsby|F. Scott Fitzgerald|51|SedeA
+LIB0046|Lo que el viento se llevó|Margaret Mitchell|48|SedeB
+LIB0047|El retrato de Dorian Gray|Oscar Wilde|50|SedeA
+LIB0048|Drácula|Bram Stoker|51|SedeB
+LIB0049|Frankenstein|Mary Shelley|48|SedeA
+LIB0050|Jane Eyre|Charlotte Brontë|50|SedeB
+LIB0051|Cumbres borrascosas|Emily Brontë|48|SedeA
+LIB0052|Las aventuras de Tom Sawyer|Mark Twain|51|SedeB
+LIB0053|Las aventuras de Huckleberry Finn|Mark Twain|50|SedeA
+LIB0054|Moby Dick|Herman Melville|48|SedeB
+LIB0055|El viejo y el mar|Ernest Hemingway|51|SedeA
+LIB0056|Por quién doblan las campanas|Ernest Hemingway|48|SedeB
+LIB0057|El sol también se levanta|Ernest Hemingway|50|SedeA
+LIB0058|Las uvas de la ira|John Steinbeck|51|SedeB
+LIB0059|De ratones y hombres|John Steinbeck|48|SedeA
+LIB0060|Al este del Edén|John Steinbeck|50|SedeB
+LIB0061|El ruido y la furia|William Faulkner|48|SedeA
+LIB0062|Mientras agonizo|William Faulkner|51|SedeB
+LIB0063|Lolita|Vladimir Nabokov|50|SedeA
+LIB0064|La naranja mecánica|Anthony Burgess|48|SedeB
+LIB0065|El nombre de la rosa|Umberto Eco|51|SedeA
+LIB0066|El péndulo de Foucault|Umberto Eco|48|SedeB
+LIB0067|La insoportable levedad del ser|Milan Kundera|50|SedeA
+LIB0068|El libro de la risa y el olvido|Milan Kundera|51|SedeB
+LIB0069|Ensayo sobre la ceguera|José Saramago|48|SedeA
+LIB0070|Todos los nombres|José Saramago|50|SedeB
+LIB0071|El evangelio según Jesucristo|José Saramago|48|SedeA
+LIB0072|La caverna|José Saramago|51|SedeB
+LIB0073|Memorial del convento|José Saramago|50|SedeA
+LIB0074|El año de la muerte de Ricardo Reis|José Saramago|48|SedeB
+LIB0075|Levantado del suelo|José Saramago|51|SedeA
+LIB0076|Las intermitencias de la muerte|José Saramago|48|SedeB
+LIB0077|La balsa de piedra|José Saramago|50|SedeA
+LIB0078|El hombre duplicado|José Saramago|51|SedeB
+LIB0079|Caín|José Saramago|48|SedeA
+LIB0080|Claraboya|José Saramago|50|SedeB
+LIB0081|La peste|Albert Camus|48|SedeA
+LIB0082|El mito de Sísifo|Albert Camus|51|SedeB
+LIB0083|La caída|Albert Camus|50|SedeA
+LIB0084|El hombre rebelde|Albert Camus|48|SedeB
+LIB0085|Bodas|Albert Camus|51|SedeA
+LIB0086|El verano|Albert Camus|48|SedeB
+LIB0087|Calígula|Albert Camus|50|SedeA
+LIB0088|Los justos|Albert Camus|51|SedeB
+LIB0089|Estado de sitio|Albert Camus|48|SedeA
+LIB0090|El malentendido|Albert Camus|50|SedeB
+LIB0091|Los hermanos Karamázov|Fiódor Dostoyevski|48|SedeA
+LIB0092|El idiota|Fiódor Dostoyevski|51|SedeB
+LIB0093|Demonios|Fiódor Dostoyevski|50|SedeA
+LIB0094|El jugador|Fiódor Dostoyevski|48|SedeB
+LIB0095|Memorias del subsuelo|Fiódor Dostoyevski|51|SedeA
+LIB0096|Pobres gentes|Fiódor Dostoyevski|48|SedeB
+LIB0097|Noches blancas|Fiódor Dostoyevski|50|SedeA
+LIB0098|El doble|Fiódor Dostoyevski|51|SedeB
+LIB0099|Humillados y ofendidos|Fiódor Dostoyevski|48|SedeA
+LIB0100|El eterno marido|Fiódor Dostoyevski|50|SedeB
+LIB0101|La muerte de Iván Ilich|León Tolstói|48|SedeA
+LIB0102|Resurrección|León Tolstói|51|SedeB
+LIB0103|Los cosacos|León Tolstói|50|SedeA
+LIB0104|La sonata a Kreutzer|León Tolstói|48|SedeB
+LIB0105|Hadyi Murad|León Tolstói|51|SedeA
+LIB0106|Infancia|León Tolstói|48|SedeB
+LIB0107|Adolescencia|León Tolstói|50|SedeA
+LIB0108|Juventud|León Tolstói|51|SedeB
+LIB0109|Sebastopol|León Tolstói|48|SedeA
+LIB0110|El diablo|León Tolstói|50|SedeB
+LIB0111|Retrato del artista adolescente|James Joyce|48|SedeA
+LIB0112|Dublineses|James Joyce|51|SedeB
+LIB0113|Finnegans Wake|James Joyce|50|SedeA
+LIB0114|Exiliados|James Joyce|48|SedeB
+LIB0115|Música de cámara|James Joyce|50|SedeA
+LIB0116|Pomes Penyeach|James Joyce|50|SedeB
+LIB0117|Stephen Hero|James Joyce|50|SedeA
+LIB0118|Giacomo Joyce|James Joyce|50|SedeB
+LIB0119|The Cat and the Devil|James Joyce|50|SedeA
+LIB0120|A Portrait of the Artist|James Joyce|50|SedeB
+LIB0121|Por el camino de Swann|Marcel Proust|50|SedeA
+LIB0122|A la sombra de las muchachas en flor|Marcel Proust|50|SedeB
+LIB0123|El mundo de Guermantes|Marcel Proust|50|SedeA
+LIB0124|Sodoma y Gomorra|Marcel Proust|50|SedeB
+LIB0125|La prisionera|Marcel Proust|50|SedeA
+LIB0126|La fugitiva|Marcel Proust|50|SedeB
+LIB0127|El tiempo recobrado|Marcel Proust|50|SedeA
+LIB0128|Los placeres y los días|Marcel Proust|50|SedeB
+LIB0129|Jean Santeuil|Marcel Proust|50|SedeA
+LIB0130|Contra Sainte-Beuve|Marcel Proust|50|SedeB
+LIB0131|La educación sentimental|Gustave Flaubert|50|SedeA
+LIB0132|Madame Bovary|Gustave Flaubert|50|SedeB
+LIB0133|Salambó|Gustave Flaubert|50|SedeA
+LIB0134|Bouvard y Pécuchet|Gustave Flaubert|50|SedeB
+LIB0135|Tres cuentos|Gustave Flaubert|50|SedeA
+LIB0136|La tentación de San Antonio|Gustave Flaubert|50|SedeB
+LIB0137|Noviembre|Gustave Flaubert|50|SedeA
+LIB0138|Memorias de un loco|Gustave Flaubert|50|SedeB
+LIB0139|Pasión y virtud|Gustave Flaubert|50|SedeA
+LIB0140|Un corazón sencillo|Gustave Flaubert|50|SedeB
+LIB0141|Rojo y negro|Stendhal|50|SedeA
+LIB0142|La cartuja de Parma|Stendhal|50|SedeB
+LIB0143|Armancia|Stendhal|50|SedeA
+LIB0144|Lucien Leuwen|Stendhal|50|SedeB
+LIB0145|Lamiel|Stendhal|50|SedeA
+LIB0146|Del amor|Stendhal|50|SedeB
+LIB0147|Vida de Henry Brulard|Stendhal|50|SedeA
+LIB0148|Recuerdos de egotismo|Stendhal|50|SedeB
+LIB0149|Roma, Nápoles y Florencia|Stendhal|50|SedeA
+LIB0150|Paseos por Roma|Stendhal|50|SedeB
+LIB0151|Papá Goriot|Honoré de Balzac|50|SedeA
+LIB0152|Eugenia Grandet|Honoré de Balzac|50|SedeB
+LIB0153|La prima Bette|Honoré de Balzac|50|SedeA
+LIB0154|El primo Pons|Honoré de Balzac|50|SedeB
+LIB0155|La piel de zapa|Honoré de Balzac|50|SedeA
+LIB0156|César Birotteau|Honoré de Balzac|50|SedeB
+LIB0157|Las ilusiones perdidas|Honoré de Balzac|50|SedeA
+LIB0158|Esplendores y miserias de las cortesanas|Honoré de Balzac|50|SedeB
+LIB0159|La duquesa de Langeais|Honoré de Balzac|50|SedeA
+LIB0160|El lirio en el valle|Honoré de Balzac|50|SedeB
+LIB0161|El proceso|Franz Kafka|50|SedeA
+LIB0162|El castillo|Franz Kafka|50|SedeB
+LIB0163|América|Franz Kafka|50|SedeA
+LIB0164|La condena|Franz Kafka|50|SedeB
+LIB0165|En la colonia penitenciaria|Franz Kafka|50|SedeA
+LIB0166|Un médico rural|Franz Kafka|50|SedeB
+LIB0167|Un artista del hambre|Franz Kafka|50|SedeA
+LIB0168|La muralla china|Franz Kafka|50|SedeB
+LIB0169|Carta al padre|Franz Kafka|50|SedeA
+LIB0170|Aforismos de Zürau|Franz Kafka|50|SedeB
+LIB0171|El lobo estepario|Hermann Hesse|50|SedeA
+LIB0172|Siddhartha|Hermann Hesse|50|SedeB
+LIB0173|Demian|Hermann Hesse|50|SedeA
+LIB0174|El juego de los abalorios|Hermann Hesse|50|SedeB
+LIB0175|Narciso y Goldmundo|Hermann Hesse|50|SedeA
+LIB0176|Bajo las ruedas|Hermann Hesse|50|SedeB
+LIB0177|Peter Camenzind|Hermann Hesse|50|SedeA
+LIB0178|Rosshalde|Hermann Hesse|50|SedeB
+LIB0179|Knulp|Hermann Hesse|50|SedeA
+LIB0180|El último verano de Klingsor|Hermann Hesse|50|SedeB
+LIB0181|La montaña mágica|Thomas Mann|50|SedeA
+LIB0182|Los Buddenbrook|Thomas Mann|50|SedeB
+LIB0183|La muerte en Venecia|Thomas Mann|50|SedeA
+LIB0184|Doctor Faustus|Thomas Mann|50|SedeB
+LIB0185|Mario y el mago|Thomas Mann|50|SedeA
+LIB0186|Tonio Kröger|Thomas Mann|50|SedeB
+LIB0187|José y sus hermanos|Thomas Mann|50|SedeA
+LIB0188|Alteza Real|Thomas Mann|50|SedeB
+LIB0189|Confesiones del estafador Felix Krull|Thomas Mann|50|SedeA
+LIB0190|La ley|Thomas Mann|50|SedeB
+LIB0191|Berlin Alexanderplatz|Alfred Döblin|50|SedeA
+LIB0192|Los tres saltos de Wang-lun|Alfred Döblin|50|SedeB
+LIB0193|Wallenstein|Alfred Döblin|50|SedeA
+LIB0194|Hamlet|Alfred Döblin|50|SedeB
+LIB0195|Noviembre 1918|Alfred Döblin|50|SedeA
+LIB0196|Amazonas|Alfred Döblin|50|SedeB
+LIB0197|Manas|Alfred Döblin|50|SedeA
+LIB0198|Viaje babilónico|Alfred Döblin|50|SedeB
+LIB0199|Pardon wird nicht gegeben|Alfred Döblin|50|SedeA
+LIB0200|Das Land ohne Tod|Alfred Döblin|50|SedeB
+LIB0201|El tambor de hojalata|Günter Grass|50|SedeA
+LIB0202|El gato y el ratón|Günter Grass|50|SedeB
+LIB0203|Años de perro|Günter Grass|50|SedeA
+LIB0204|El rodaballo|Günter Grass|50|SedeB
+LIB0205|La ratesa|Günter Grass|50|SedeA
+LIB0206|Mi siglo|Günter Grass|50|SedeB
+LIB0207|A paso de cangrejo|Günter Grass|50|SedeA
+LIB0208|Pelando la cebolla|Günter Grass|50|SedeB
+LIB0209|La caja de los deseos|Günter Grass|50|SedeA
+LIB0210|Los plebeyos ensayan la rebelión|Günter Grass|50|SedeB
+LIB0211|El cuaderno gris|Josep Pla|50|SedeA
+LIB0212|Viaje en autobús|Josep Pla|50|SedeB
+LIB0213|El que hem menjat|Josep Pla|50|SedeA
+LIB0214|Notes disperses|Josep Pla|50|SedeB
+LIB0215|Contraban|Josep Pla|50|SedeA
+LIB0216|Cartes de lluny|Josep Pla|50|SedeB
+LIB0217|Madrid|Josep Pla|50|SedeA
+LIB0218|Cadaqués|Josep Pla|50|SedeB
+LIB0219|Costa Brava|Josep Pla|50|SedeA
+LIB0220|Els pagesos|Josep Pla|50|SedeB
+LIB0221|La plaza del Diamante|Mercè Rodoreda|50|SedeA
+LIB0222|La calle de las Camelias|Mercè Rodoreda|50|SedeB
+LIB0223|Aloma|Mercè Rodoreda|50|SedeA
+LIB0224|Espejo roto|Mercè Rodoreda|50|SedeB
+LIB0225|Jardín junto al mar|Mercè Rodoreda|50|SedeA
+LIB0226|Viajes y flores|Mercè Rodoreda|50|SedeB
+LIB0227|La muerte y la primavera|Mercè Rodoreda|50|SedeA
+LIB0228|Quanta, quanta guerra|Mercè Rodoreda|50|SedeB
+LIB0229|Isabel y María|Mercè Rodoreda|50|SedeA
+LIB0230|Un café para dos|Mercè Rodoreda|50|SedeB
+LIB0231|Tiempo de silencio|Luis Martín-Santos|50|SedeA
+LIB0232|Tiempo de destrucción|Luis Martín-Santos|50|SedeB
+LIB0233|Apólogos|Luis Martín-Santos|50|SedeA
+LIB0234|Dilthey, Jaspers y la comprensión del enfermo mental|Luis Martín-Santos|50|SedeB
+LIB0235|Libertad, temporalidad y transferencia|Luis Martín-Santos|50|SedeA
+LIB0236|El análisis existencial|Luis Martín-Santos|50|SedeB
+LIB0237|Taula de colors|Luis Martín-Santos|50|SedeA
+LIB0238|El porvenir de España|Luis Martín-Santos|50|SedeB
+LIB0239|Barbarie y reflexión|Luis Martín-Santos|50|SedeA
+LIB0240|El hombre como ser dual|Luis Martín-Santos|50|SedeB
+LIB0241|La verdad sobre el caso Savolta|Eduardo Mendoza|50|SedeA
+LIB0242|El misterio de la cripta embrujada|Eduardo Mendoza|50|SedeB
+LIB0243|La ciudad de los prodigios|Eduardo Mendoza|50|SedeA
+LIB0244|Sin noticias de Gurb|Eduardo Mendoza|50|SedeB
+LIB0245|El año del diluvio|Eduardo Mendoza|50|SedeA
+LIB0246|Una comedia ligera|Eduardo Mendoza|50|SedeB
+LIB0247|La aventura del tocador de señoras|Eduardo Mendoza|50|SedeA
+LIB0248|El laberinto de las aceitunas|Eduardo Mendoza|50|SedeB
+LIB0249|Mauricio o las elecciones primarias|Eduardo Mendoza|50|SedeA
+LIB0250|Riña de gatos|Eduardo Mendoza|50|SedeB
+LIB0251|Nada|Carmen Laforet|50|SedeA
+LIB0252|La isla y los demonios|Carmen Laforet|50|SedeB
+LIB0253|La mujer nueva|Carmen Laforet|50|SedeA
+LIB0254|La insolación|Carmen Laforet|50|SedeB
+LIB0255|Paralelo 35|Carmen Laforet|50|SedeA
+LIB0256|La niña|Carmen Laforet|50|SedeB
+LIB0257|El piano|Carmen Laforet|50|SedeA
+LIB0258|La llamada|Carmen Laforet|50|SedeB
+LIB0259|Al volver la esquina|Carmen Laforet|50|SedeA
+LIB0260|Novelas|Carmen Laforet|50|SedeB
+LIB0261|La colmena|Camilo José Cela|50|SedeA
+LIB0262|La familia de Pascual Duarte|Camilo José Cela|50|SedeB
+LIB0263|Viaje a la Alcarria|Camilo José Cela|50|SedeA
+LIB0264|San Camilo, 1936|Camilo José Cela|50|SedeB
+LIB0265|Oficio de tinieblas 5|Camilo José Cela|50|SedeA
+LIB0266|Mazurca para dos muertos|Camilo José Cela|50|SedeB
+LIB0267|Cristo versus Arizona|Camilo José Cela|50|SedeA
+LIB0268|La cruz de San Andrés|Camilo José Cela|50|SedeB
+LIB0269|Madera de boj|Camilo José Cela|50|SedeA
+LIB0270|Mrs. Caldwell habla con su hijo|Camilo José Cela|50|SedeB
+LIB0271|La verdad sobre el caso Savolta|Eduardo Mendoza|50|SedeA
+LIB0272|Cinco horas con Mario|Miguel Delibes|50|SedeB
+LIB0273|Los santos inocentes|Miguel Delibes|50|SedeA
+LIB0274|El camino|Miguel Delibes|50|SedeB
+LIB0275|El hereje|Miguel Delibes|50|SedeA
+LIB0276|Las ratas|Miguel Delibes|50|SedeB
+LIB0277|El príncipe destronado|Miguel Delibes|50|SedeA
+LIB0278|La sombra del ciprés es alargada|Miguel Delibes|50|SedeB
+LIB0279|Señora de rojo sobre fondo gris|Miguel Delibes|50|SedeA
+LIB0280|El disputado voto del señor Cayo|Miguel Delibes|50|SedeB
+LIB0281|La Regenta|Leopoldo Alas Clarín|50|SedeA
+LIB0282|Su único hijo|Leopoldo Alas Clarín|50|SedeB
+LIB0283|Doña Berta|Leopoldo Alas Clarín|50|SedeA
+LIB0284|Cuentos morales|Leopoldo Alas Clarín|50|SedeB
+LIB0285|Pipá|Leopoldo Alas Clarín|50|SedeA
+LIB0286|El señor|Leopoldo Alas Clarín|50|SedeB
+LIB0287|Superchería|Leopoldo Alas Clarín|50|SedeA
+LIB0288|La mosca sabia|Leopoldo Alas Clarín|50|SedeB
+LIB0289|El dúo de la tos|Leopoldo Alas Clarín|50|SedeA
+LIB0290|¡Adiós, Cordera!|Leopoldo Alas Clarín|50|SedeB
+LIB0291|Fortunata y Jacinta|Benito Pérez Galdós|50|SedeA
+LIB0292|Episodios Nacionales|Benito Pérez Galdós|50|SedeB
+LIB0293|Misericordia|Benito Pérez Galdós|50|SedeA
+LIB0294|Marianela|Benito Pérez Galdós|50|SedeB
+LIB0295|Doña Perfecta|Benito Pérez Galdós|50|SedeA
+LIB0296|Tormento|Benito Pérez Galdós|50|SedeB
+LIB0297|La de Bringas|Benito Pérez Galdós|50|SedeA
+LIB0298|Nazarín|Benito Pérez Galdós|50|SedeB
+LIB0299|Tristana|Benito Pérez Galdós|50|SedeA
+LIB0300|El amigo Manso|Benito Pérez Galdós|50|SedeB
 LIB0301|La desheredada|Benito Pérez Galdós|7|SedeA
 LIB0302|Miau|Benito Pérez Galdós|5|SedeB
 LIB0303|El doctor Centeno|Benito Pérez Galdós|4|SedeA

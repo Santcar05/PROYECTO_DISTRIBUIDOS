@@ -1,115 +1,115 @@
-LIB0001|Cien años de soledad|Gabriel García Márquez|1|SedeA
-LIB0002|Don Quijote de la Mancha|Miguel de Cervantes|12|SedeB
+LIB0001|Cien años de soledad|Gabriel García Márquez|0|SedeA
+LIB0002|Don Quijote de la Mancha|Miguel de Cervantes|26|SedeB
 LIB0003|El amor en los tiempos del cólera|Gabriel García Márquez|3|SedeA
-LIB0004|1984|George Orwell|8|SedeB
-LIB0005|Crónica de una muerte anunciada|Gabriel García Márquez|11|SedeA
-LIB0006|La sombra del viento|Carlos Ruiz Zafón|2|SedeB
+LIB0004|1984|George Orwell|0|SedeB
+LIB0005|Crónica de una muerte anunciada|Gabriel García Márquez|25|SedeA
+LIB0006|La sombra del viento|Carlos Ruiz Zafón|0|SedeB
 LIB0007|El principito|Antoine de Saint-Exupéry|15|SedeA
-LIB0008|Orgullo y prejuicio|Jane Austen|8|SedeB
-LIB0009|Harry Potter y la piedra filosofal|J.K. Rowling|6|SedeA
+LIB0008|Orgullo y prejuicio|Jane Austen|22|SedeB
+LIB0009|Harry Potter y la piedra filosofal|J.K. Rowling|0|SedeA
 LIB0010|El código Da Vinci|Dan Brown|9|SedeB
-LIB0011|Los juegos del hambre|Suzanne Collins|4|SedeA
-LIB0012|Cincuenta sombras de Grey|E.L. James|6|SedeB
+LIB0011|Los juegos del hambre|Suzanne Collins|0|SedeA
+LIB0012|Cincuenta sombras de Grey|E.L. James|20|SedeB
 LIB0013|El hobbit|J.R.R. Tolkien|11|SedeA
-LIB0014|El señor de los anillos|J.R.R. Tolkien|3|SedeB
-LIB0015|Crepúsculo|Stephenie Meyer|9|SedeA
-LIB0016|La casa de los espíritus|Isabel Allende|2|SedeB
+LIB0014|El señor de los anillos|J.R.R. Tolkien|0|SedeB
+LIB0015|Crepúsculo|Stephenie Meyer|23|SedeA
+LIB0016|La casa de los espíritus|Isabel Allende|0|SedeB
 LIB0017|El alquimista|Paulo Coelho|13|SedeA
-LIB0018|La ciudad y los perros|Mario Vargas Llosa|8|SedeB
+LIB0018|La ciudad y los perros|Mario Vargas Llosa|22|SedeB
 LIB0019|Rayuela|Julio Cortázar|0|SedeA
 LIB0020|Pedro Páramo|Juan Rulfo|8|SedeB
-LIB0021|Ficciones|Jorge Luis Borges|1|SedeA
-LIB0022|El túnel|Ernesto Sábato|11|SedeB
+LIB0021|Ficciones|Jorge Luis Borges|0|SedeA
+LIB0022|El túnel|Ernesto Sábato|25|SedeB
 LIB0023|Los detectives salvajes|Roberto Bolaño|0|SedeA
 LIB0024|La tregua|Mario Benedetti|6|SedeB
-LIB0025|El perfume|Patrick Süskind|13|SedeA
-LIB0026|La metamorfosis|Franz Kafka|6|SedeB
+LIB0025|El perfume|Patrick Süskind|27|SedeA
+LIB0026|La metamorfosis|Franz Kafka|0|SedeB
 LIB0027|El extranjero|Albert Camus|8|SedeA
-LIB0028|Crimen y castigo|Fiódor Dostoyevski|9|SedeB
+LIB0028|Crimen y castigo|Fiódor Dostoyevski|23|SedeB
 LIB0029|Los miserables|Victor Hugo|0|SedeA
 LIB0030|Guerra y paz|León Tolstói|4|SedeB
-LIB0031|Anna Karenina|León Tolstói|2|SedeA
-LIB0032|Ulises|James Joyce|6|SedeB
+LIB0031|Anna Karenina|León Tolstói|0|SedeA
+LIB0032|Ulises|James Joyce|20|SedeB
 LIB0033|En busca del tiempo perdido|Marcel Proust|3|SedeA
-LIB0034|La Odisea|Homero|8|SedeB
-LIB0035|La Ilíada|Homero|15|SedeA
-LIB0036|La divina comedia|Dante Alighieri|3|SedeB
+LIB0034|La Odisea|Homero|0|SedeB
+LIB0035|La Ilíada|Homero|29|SedeA
+LIB0036|La divina comedia|Dante Alighieri|0|SedeB
 LIB0037|Hamlet|William Shakespeare|9|SedeA
-LIB0038|Macbeth|William Shakespeare|12|SedeB
-LIB0039|Romeo y Julieta|William Shakespeare|6|SedeA
+LIB0038|Macbeth|William Shakespeare|26|SedeB
+LIB0039|Romeo y Julieta|William Shakespeare|0|SedeA
 LIB0040|Otelo|William Shakespeare|6|SedeB
-LIB0041|El guardián entre el centeno|J.D. Salinger|3|SedeA
-LIB0042|Matar un ruiseñor|Harper Lee|12|SedeB
+LIB0041|El guardián entre el centeno|J.D. Salinger|0|SedeA
+LIB0042|Matar un ruiseñor|Harper Lee|26|SedeB
 LIB0043|Fahrenheit 451|Ray Bradbury|9|SedeA
-LIB0044|Un mundo feliz|Aldous Huxley|1|SedeB
-LIB0045|El gran Gatsby|F. Scott Fitzgerald|15|SedeA
+LIB0044|Un mundo feliz|Aldous Huxley|0|SedeB
+LIB0045|El gran Gatsby|F. Scott Fitzgerald|29|SedeA
 LIB0046|Lo que el viento se llevó|Margaret Mitchell|0|SedeB
 LIB0047|El retrato de Dorian Gray|Oscar Wilde|6|SedeA
-LIB0048|Drácula|Bram Stoker|12|SedeB
-LIB0049|Frankenstein|Mary Shelley|3|SedeA
+LIB0048|Drácula|Bram Stoker|26|SedeB
+LIB0049|Frankenstein|Mary Shelley|0|SedeA
 LIB0050|Jane Eyre|Charlotte Brontë|5|SedeB
 LIB0051|Cumbres borrascosas|Emily Brontë|0|SedeA
-LIB0052|Las aventuras de Tom Sawyer|Mark Twain|13|SedeB
+LIB0052|Las aventuras de Tom Sawyer|Mark Twain|27|SedeB
 LIB0053|Las aventuras de Huckleberry Finn|Mark Twain|8|SedeA
 LIB0054|Moby Dick|Herman Melville|0|SedeB
-LIB0055|El viejo y el mar|Ernest Hemingway|14|SedeA
-LIB0056|Por quién doblan las campanas|Ernest Hemingway|2|SedeB
+LIB0055|El viejo y el mar|Ernest Hemingway|28|SedeA
+LIB0056|Por quién doblan las campanas|Ernest Hemingway|0|SedeB
 LIB0057|El sol también se levanta|Ernest Hemingway|5|SedeA
-LIB0058|Las uvas de la ira|John Steinbeck|11|SedeB
-LIB0059|De ratones y hombres|John Steinbeck|4|SedeA
+LIB0058|Las uvas de la ira|John Steinbeck|25|SedeB
+LIB0059|De ratones y hombres|John Steinbeck|0|SedeA
 LIB0060|Al este del Edén|John Steinbeck|4|SedeB
 LIB0061|El ruido y la furia|William Faulkner|0|SedeA
-LIB0062|Mientras agonizo|William Faulkner|9|SedeB
+LIB0062|Mientras agonizo|William Faulkner|23|SedeB
 LIB0063|Lolita|Vladimir Nabokov|6|SedeA
-LIB0064|La naranja mecánica|Anthony Burgess|5|SedeB
-LIB0065|El nombre de la rosa|Umberto Eco|11|SedeA
+LIB0064|La naranja mecánica|Anthony Burgess|0|SedeB
+LIB0065|El nombre de la rosa|Umberto Eco|25|SedeA
 LIB0066|El péndulo de Foucault|Umberto Eco|0|SedeB
 LIB0067|La insoportable levedad del ser|Milan Kundera|8|SedeA
-LIB0068|El libro de la risa y el olvido|Milan Kundera|9|SedeB
-LIB0069|Ensayo sobre la ceguera|José Saramago|2|SedeA
+LIB0068|El libro de la risa y el olvido|Milan Kundera|23|SedeB
+LIB0069|Ensayo sobre la ceguera|José Saramago|0|SedeA
 LIB0070|Todos los nombres|José Saramago|7|SedeB
 LIB0071|El evangelio según Jesucristo|José Saramago|0|SedeA
-LIB0072|La caverna|José Saramago|8|SedeB
+LIB0072|La caverna|José Saramago|22|SedeB
 LIB0073|Memorial del convento|José Saramago|5|SedeA
-LIB0074|El año de la muerte de Ricardo Reis|José Saramago|2|SedeB
-LIB0075|Levantado del suelo|José Saramago|7|SedeA
-LIB0076|Las intermitencias de la muerte|José Saramago|3|SedeB
+LIB0074|El año de la muerte de Ricardo Reis|José Saramago|0|SedeB
+LIB0075|Levantado del suelo|José Saramago|21|SedeA
+LIB0076|Las intermitencias de la muerte|José Saramago|0|SedeB
 LIB0077|La balsa de piedra|José Saramago|4|SedeA
-LIB0078|El hombre duplicado|José Saramago|9|SedeB
-LIB0079|Caín|José Saramago|4|SedeA
+LIB0078|El hombre duplicado|José Saramago|23|SedeB
+LIB0079|Caín|José Saramago|0|SedeA
 LIB0080|Claraboya|José Saramago|3|SedeB
-LIB0081|La peste|Albert Camus|5|SedeA
-LIB0082|El mito de Sísifo|Albert Camus|10|SedeB
+LIB0081|La peste|Albert Camus|0|SedeA
+LIB0082|El mito de Sísifo|Albert Camus|24|SedeB
 LIB0083|La caída|Albert Camus|5|SedeA
 LIB0084|El hombre rebelde|Albert Camus|0|SedeB
-LIB0085|Bodas|Albert Camus|7|SedeA
-LIB0086|El verano|Albert Camus|3|SedeB
+LIB0085|Bodas|Albert Camus|21|SedeA
+LIB0086|El verano|Albert Camus|0|SedeB
 LIB0087|Calígula|Albert Camus|5|SedeA
-LIB0088|Los justos|Albert Camus|8|SedeB
+LIB0088|Los justos|Albert Camus|22|SedeB
 LIB0089|Estado de sitio|Albert Camus|0|SedeA
 LIB0090|El malentendido|Albert Camus|6|SedeB
-LIB0091|Los hermanos Karamázov|Fiódor Dostoyevski|4|SedeA
-LIB0092|El idiota|Fiódor Dostoyevski|11|SedeB
+LIB0091|Los hermanos Karamázov|Fiódor Dostoyevski|0|SedeA
+LIB0092|El idiota|Fiódor Dostoyevski|25|SedeB
 LIB0093|Demonios|Fiódor Dostoyevski|5|SedeA
-LIB0094|El jugador|Fiódor Dostoyevski|2|SedeB
-LIB0095|Memorias del subsuelo|Fiódor Dostoyevski|13|SedeA
+LIB0094|El jugador|Fiódor Dostoyevski|0|SedeB
+LIB0095|Memorias del subsuelo|Fiódor Dostoyevski|27|SedeA
 LIB0096|Pobres gentes|Fiódor Dostoyevski|0|SedeB
 LIB0097|Noches blancas|Fiódor Dostoyevski|8|SedeA
-LIB0098|El doble|Fiódor Dostoyevski|9|SedeB
+LIB0098|El doble|Fiódor Dostoyevski|23|SedeB
 LIB0099|Humillados y ofendidos|Fiódor Dostoyevski|0|SedeA
 LIB0100|El eterno marido|Fiódor Dostoyevski|6|SedeB
-LIB0101|La muerte de Iván Ilich|León Tolstói|3|SedeA
-LIB0102|Resurrección|León Tolstói|9|SedeB
+LIB0101|La muerte de Iván Ilich|León Tolstói|0|SedeA
+LIB0102|Resurrección|León Tolstói|23|SedeB
 LIB0103|Los cosacos|León Tolstói|4|SedeA
-LIB0104|La sonata a Kreutzer|León Tolstói|2|SedeB
-LIB0105|Hadyi Murad|León Tolstói|7|SedeA
-LIB0106|Infancia|León Tolstói|4|SedeB
+LIB0104|La sonata a Kreutzer|León Tolstói|0|SedeB
+LIB0105|Hadyi Murad|León Tolstói|21|SedeA
+LIB0106|Infancia|León Tolstói|0|SedeB
 LIB0107|Adolescencia|León Tolstói|7|SedeA
-LIB0108|Juventud|León Tolstói|9|SedeB
+LIB0108|Juventud|León Tolstói|23|SedeB
 LIB0109|Sebastopol|León Tolstói|0|SedeA
 LIB0110|El diablo|León Tolstói|6|SedeB
-LIB0111|Retrato del artista adolescente|James Joyce|5|SedeA
-LIB0112|Dublineses|James Joyce|12|SedeB
+LIB0111|Retrato del artista adolescente|James Joyce|0|SedeA
+LIB0112|Dublineses|James Joyce|26|SedeB
 LIB0113|Finnegans Wake|James Joyce|3|SedeA
 LIB0114|Exiliados|James Joyce|0|SedeB
 LIB0115|Música de cámara|James Joyce|5|SedeA
