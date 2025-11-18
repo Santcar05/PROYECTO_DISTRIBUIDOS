@@ -1,0 +1,115 @@
+timestamp,operacion,codigo,titulo,sede,tiempo_respuesta_ms,exito
+2025-11-17T16:36:35.275951,prestamo,LIB0001,Cien años de soledad,SedeA,3.29,True
+2025-11-17T16:36:35.278206,devolucion,LIB0002,Don Quijote de la Mancha,SedeB,1.17,True
+2025-11-17T16:36:35.281082,renovacion,LIB0003,El amor en los tiempos del cólera,SedeA,1.22,True
+2025-11-17T16:36:35.284282,prestamo,LIB0004,1984,SedeB,1.71,True
+2025-11-17T16:36:35.287608,devolucion,LIB0005,Crónica de una muerte anunciada,SedeA,1.65,True
+2025-11-17T16:36:35.290487,prestamo,LIB0006,La sombra del viento,SedeB,1.09,True
+2025-11-17T16:36:35.293829,renovacion,LIB0007,El principito,SedeA,1.73,True
+2025-11-17T16:36:35.298112,devolucion,LIB0008,Orgullo y prejuicio,SedeB,2.22,True
+2025-11-17T16:36:35.302259,prestamo,LIB0009,Harry Potter y la piedra filosofal,SedeA,1.90,True
+2025-11-17T16:36:35.305583,renovacion,LIB0010,El código Da Vinci,SedeB,1.52,True
+2025-11-17T16:36:35.309234,prestamo,LIB0011,Los juegos del hambre,SedeA,1.66,True
+2025-11-17T16:36:35.312818,devolucion,LIB0012,Cincuenta sombras de Grey,SedeB,1.51,True
+2025-11-17T16:36:35.315449,renovacion,LIB0013,El hobbit,SedeA,1.48,True
+2025-11-17T16:36:35.317160,prestamo,LIB0014,El señor de los anillos,SedeB,0.90,True
+2025-11-17T16:36:35.318901,devolucion,LIB0015,Crepúsculo,SedeA,0.77,True
+2025-11-17T16:36:35.320771,prestamo,LIB0016,La casa de los espíritus,SedeB,0.87,True
+2025-11-17T16:36:35.322701,renovacion,LIB0017,El alquimista,SedeA,0.97,True
+2025-11-17T16:36:35.324512,devolucion,LIB0018,La ciudad y los perros,SedeB,0.87,True
+2025-11-17T16:36:35.326379,prestamo,LIB0019,Rayuela,SedeA,0.83,True
+2025-11-17T16:36:35.329211,renovacion,LIB0020,Pedro Páramo,SedeB,1.27,True
+2025-11-17T16:36:35.331090,prestamo,LIB0021,Ficciones,SedeA,0.95,True
+2025-11-17T16:36:35.332936,devolucion,LIB0022,El túnel,SedeB,0.98,True
+2025-11-17T16:36:35.334946,prestamo,LIB0023,Los detectives salvajes,SedeA,1.00,True
+2025-11-17T16:36:35.336642,renovacion,LIB0024,La tregua,SedeB,0.81,True
+2025-11-17T16:36:35.338572,devolucion,LIB0025,El perfume,SedeA,0.86,True
+2025-11-17T16:36:35.340734,prestamo,LIB0026,La metamorfosis,SedeB,0.91,True
+2025-11-17T16:36:35.342592,renovacion,LIB0027,El extranjero,SedeA,0.89,True
+2025-11-17T16:36:35.344893,devolucion,LIB0028,Crimen y castigo,SedeB,1.22,True
+2025-11-17T16:36:35.347153,prestamo,LIB0029,Los miserables,SedeA,1.10,True
+2025-11-17T16:36:35.348923,renovacion,LIB0030,Guerra y paz,SedeB,0.96,True
+2025-11-17T16:36:35.350580,prestamo,LIB0031,Anna Karenina,SedeA,0.82,True
+2025-11-17T16:36:35.352042,devolucion,LIB0032,Ulises,SedeB,0.69,True
+2025-11-17T16:36:35.353453,renovacion,LIB0033,En busca del tiempo perdido,SedeA,0.73,True
+2025-11-17T16:36:35.354905,prestamo,LIB0034,La Odisea,SedeB,0.66,True
+2025-11-17T16:36:35.356508,devolucion,LIB0035,La Ilíada,SedeA,0.85,True
+2025-11-17T16:36:35.358192,prestamo,LIB0036,La divina comedia,SedeB,0.90,True
+2025-11-17T16:36:35.360358,renovacion,LIB0037,Hamlet,SedeA,0.81,True
+2025-11-17T16:36:35.362218,devolucion,LIB0038,Macbeth,SedeB,0.82,True
+2025-11-17T16:36:35.367768,prestamo,LIB0039,Romeo y Julieta,SedeA,3.82,True
+2025-11-17T16:36:35.371203,renovacion,LIB0040,Otelo,SedeB,1.18,True
+2025-11-17T16:36:35.378621,prestamo,LIB0041,El guardián entre el centeno,SedeA,5.43,True
+2025-11-17T16:36:35.380839,devolucion,LIB0042,Matar un ruiseñor,SedeB,1.07,True
+2025-11-17T16:36:35.383346,renovacion,LIB0043,Fahrenheit 451,SedeA,1.23,True
+2025-11-17T16:36:35.385565,prestamo,LIB0044,Un mundo feliz,SedeB,1.07,True
+2025-11-17T16:36:35.387854,devolucion,LIB0045,El gran Gatsby,SedeA,1.21,True
+2025-11-17T16:36:35.393413,prestamo,LIB0046,Lo que el viento se llevó,SedeB,3.78,True
+2025-11-17T16:36:35.396265,renovacion,LIB0047,El retrato de Dorian Gray,SedeA,1.44,True
+2025-11-17T16:36:35.398722,devolucion,LIB0048,Drácula,SedeB,1.29,True
+2025-11-17T16:36:35.401072,prestamo,LIB0049,Frankenstein,SedeA,1.01,True
+2025-11-17T16:36:35.403095,renovacion,LIB0050,Jane Eyre,SedeB,1.01,True
+2025-11-17T16:36:35.407996,prestamo,LIB0051,Cumbres borrascosas,SedeA,2.08,True
+2025-11-17T16:36:35.411432,devolucion,LIB0052,Las aventuras de Tom Sawyer,SedeB,1.61,True
+2025-11-17T16:36:35.413377,renovacion,LIB0053,Las aventuras de Huckleberry Finn,SedeA,0.95,True
+2025-11-17T16:36:35.415803,prestamo,LIB0054,Moby Dick,SedeB,1.11,True
+2025-11-17T16:36:35.418110,devolucion,LIB0055,El viejo y el mar,SedeA,1.19,True
+2025-11-17T16:36:35.420372,prestamo,LIB0056,Por quién doblan las campanas,SedeB,1.10,True
+2025-11-17T16:36:35.422642,renovacion,LIB0057,El sol también se levanta,SedeA,1.03,True
+2025-11-17T16:36:35.424580,devolucion,LIB0058,Las uvas de la ira,SedeB,0.97,True
+2025-11-17T16:36:35.426482,prestamo,LIB0059,De ratones y hombres,SedeA,0.95,True
+2025-11-17T16:36:35.428709,renovacion,LIB0060,Al este del Edén,SedeB,0.98,True
+2025-11-17T16:36:35.430642,prestamo,LIB0061,El ruido y la furia,SedeA,1.03,True
+2025-11-17T16:36:35.432458,devolucion,LIB0062,Mientras agonizo,SedeB,0.87,True
+2025-11-17T16:36:35.434195,renovacion,LIB0063,Lolita,SedeA,0.93,True
+2025-11-17T16:36:35.435971,prestamo,LIB0064,La naranja mecánica,SedeB,0.96,True
+2025-11-17T16:36:35.437502,devolucion,LIB0065,El nombre de la rosa,SedeA,0.91,True
+2025-11-17T16:36:35.438941,prestamo,LIB0066,El péndulo de Foucault,SedeB,0.66,True
+2025-11-17T16:36:35.443642,renovacion,LIB0067,La insoportable levedad del ser,SedeA,2.27,True
+2025-11-17T16:36:35.446878,devolucion,LIB0068,El libro de la risa y el olvido,SedeB,1.62,True
+2025-11-17T16:36:35.449908,prestamo,LIB0069,Ensayo sobre la ceguera,SedeA,1.44,True
+2025-11-17T16:36:35.453863,renovacion,LIB0070,Todos los nombres,SedeB,2.10,True
+2025-11-17T16:36:35.457037,prestamo,LIB0071,El evangelio según Jesucristo,SedeA,1.31,True
+2025-11-17T16:36:35.460884,devolucion,LIB0072,La caverna,SedeB,2.18,True
+2025-11-17T16:36:35.462345,renovacion,LIB0073,Memorial del convento,SedeA,0.74,True
+2025-11-17T16:36:35.463488,prestamo,LIB0074,El año de la muerte de Ricardo Reis,SedeB,0.69,True
+2025-11-17T16:36:35.464720,devolucion,LIB0075,Levantado del suelo,SedeA,0.62,True
+2025-11-17T16:36:35.466224,prestamo,LIB0076,Las intermitencias de la muerte,SedeB,0.82,True
+2025-11-17T16:36:35.467910,renovacion,LIB0077,La balsa de piedra,SedeA,0.81,True
+2025-11-17T16:36:35.469462,devolucion,LIB0078,El hombre duplicado,SedeB,0.84,True
+2025-11-17T16:36:35.470831,prestamo,LIB0079,Caín,SedeA,0.62,True
+2025-11-17T16:36:35.472491,renovacion,LIB0080,Claraboya,SedeB,0.89,True
+2025-11-17T16:36:35.475529,prestamo,LIB0081,La peste,SedeA,1.66,True
+2025-11-17T16:36:35.477229,devolucion,LIB0082,El mito de Sísifo,SedeB,0.86,True
+2025-11-17T16:36:35.478837,renovacion,LIB0083,La caída,SedeA,0.89,True
+2025-11-17T16:36:35.479944,prestamo,LIB0084,El hombre rebelde,SedeB,0.55,True
+2025-11-17T16:36:35.481030,devolucion,LIB0085,Bodas,SedeA,0.55,True
+2025-11-17T16:36:35.482623,prestamo,LIB0086,El verano,SedeB,0.78,True
+2025-11-17T16:36:35.484003,renovacion,LIB0087,Calígula,SedeA,0.79,True
+2025-11-17T16:36:35.485167,devolucion,LIB0088,Los justos,SedeB,0.56,True
+2025-11-17T16:36:35.486176,prestamo,LIB0089,Estado de sitio,SedeA,0.51,True
+2025-11-17T16:36:35.487377,renovacion,LIB0090,El malentendido,SedeB,0.63,True
+2025-11-17T16:36:35.488858,prestamo,LIB0091,Los hermanos Karamázov,SedeA,0.64,True
+2025-11-17T16:36:35.490887,devolucion,LIB0092,El idiota,SedeB,1.15,True
+2025-11-17T16:36:35.492478,renovacion,LIB0093,Demonios,SedeA,0.72,True
+2025-11-17T16:36:35.493762,prestamo,LIB0094,El jugador,SedeB,0.65,True
+2025-11-17T16:36:35.495088,devolucion,LIB0095,Memorias del subsuelo,SedeA,0.62,True
+2025-11-17T16:36:35.496414,prestamo,LIB0096,Pobres gentes,SedeB,0.68,True
+2025-11-17T16:36:35.498034,renovacion,LIB0097,Noches blancas,SedeA,0.94,True
+2025-11-17T16:36:35.499507,devolucion,LIB0098,El doble,SedeB,0.78,True
+2025-11-17T16:36:35.501053,prestamo,LIB0099,Humillados y ofendidos,SedeA,0.80,True
+2025-11-17T16:36:35.502559,renovacion,LIB0100,El eterno marido,SedeB,0.63,True
+2025-11-17T16:36:35.503959,prestamo,LIB0101,La muerte de Iván Ilich,SedeA,0.67,True
+2025-11-17T16:36:35.505666,devolucion,LIB0102,Resurrección,SedeB,0.84,True
+2025-11-17T16:36:35.510267,renovacion,LIB0103,Los cosacos,SedeA,2.70,True
+2025-11-17T16:36:35.511979,prestamo,LIB0104,La sonata a Kreutzer,SedeB,0.66,True
+2025-11-17T16:36:35.513361,devolucion,LIB0105,Hadyi Murad,SedeA,0.63,True
+2025-11-17T16:36:35.515043,prestamo,LIB0106,Infancia,SedeB,0.92,True
+2025-11-17T16:36:35.516275,renovacion,LIB0107,Adolescencia,SedeA,0.63,True
+2025-11-17T16:36:35.517866,devolucion,LIB0108,Juventud,SedeB,0.81,True
+2025-11-17T16:36:35.519036,prestamo,LIB0109,Sebastopol,SedeA,0.55,True
+2025-11-17T16:36:35.520432,renovacion,LIB0110,El diablo,SedeB,0.77,True
+2025-11-17T16:36:35.521923,prestamo,LIB0111,Retrato del artista adolescente,SedeA,0.68,True
+2025-11-17T16:36:35.524385,devolucion,LIB0112,Dublineses,SedeB,1.76,True
+2025-11-17T16:36:35.525637,renovacion,LIB0113,Finnegans Wake,SedeA,0.64,True
+2025-11-17T16:36:35.527568,prestamo,LIB0114,Exiliados,SedeB,0.83,True
